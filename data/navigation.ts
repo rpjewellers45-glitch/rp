@@ -1,19 +1,22 @@
-export const navLinks = [
-  { href: "/#home", label: "Home" },
-  { href: "/#collections", label: "Collections" },
-  { href: "/#why-us", label: "Why Us" },
-  { href: "/#about", label: "About" },
-  { href: "/#gallery", label: "Gallery" },
-  { href: "/#visit", label: "Visit Us" },
-  { href: "/#contact", label: "Contact" },
-] as const;
+import type { MessageKey } from "@/data/i18n";
 
-export const footerExplore = [
-  { href: "/#collections", label: "Collections" },
-  { href: "/collections", label: "All collections" },
-  { href: "/#why-us", label: "Why us" },
-  { href: "/about", label: "Our story" },
-  { href: "/#gallery", label: "Gallery" },
-  { href: "/#visit", label: "Visit us" },
-  { href: "/#contact", label: "Contact" },
-] as const;
+export const navLinks: Array<{ href: string; key: MessageKey }> = [
+  { href: "/#home", key: "nav.home" },
+  { href: "/collections", key: "nav.products" },
+  { href: "/#collections", key: "nav.collections" },
+  { href: "/#guide", key: "nav.guide" },
+  { href: "/about", key: "nav.about" },
+  { href: "/#visit", key: "nav.visit" },
+  { href: "/#contact", key: "nav.contact" },
+];
+
+export const footerExplore: Array<{ href: string; key: MessageKey }> = [
+  { href: "/collections", key: "nav.products" },
+  { href: "/#collections", key: "nav.collections" },
+  { href: "/#guide", key: "nav.guide" },
+  { href: "/about", key: "nav.about" },
+  { href: "/#faq", key: "faq.eyebrow" },
+  { href: "/#gallery", key: "nav.gallery" },
+  { href: "/#visit", key: "nav.visit" },
+  { href: "/#contact", key: "nav.contact" },
+];

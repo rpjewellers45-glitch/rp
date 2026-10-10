@@ -1,10 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Cormorant_Garamond, Jost, Playfair_Display } from "next/font/google";
+import { Cormorant_Garamond, DM_Sans, Noto_Sans_Devanagari, Tiro_Devanagari_Hindi } from "next/font/google";
+import { LanguageProvider } from "@/components/i18n/LanguageProvider";
+import { LocaleText } from "@/components/i18n/LocaleText";
 import { Footer } from "@/components/sections/Footer";
 import { FloatingActions } from "@/components/sections/FloatingActions";
 import { Navbar } from "@/components/sections/Navbar";
 import { Preloader } from "@/components/sections/Preloader";
+import { RouteShine } from "@/components/ui/RouteShine";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { shop } from "@/data/shop";
 import { siteUrl } from "@/lib/site";
@@ -12,24 +15,33 @@ import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-cormorant",
   display: "swap",
 });
 
-const jost = Jost({
+const dmSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-jost",
+  weight: ["400", "500"],
+  variable: "--font-dm-sans",
   display: "swap",
 });
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-playfair",
+const devanagari = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  weight: ["400", "500", "600"],
+  variable: "--font-devanagari",
   display: "swap",
+  preload: false,
+});
+
+const tiro = Tiro_Devanagari_Hindi({
+  subsets: ["devanagari", "latin"],
+  weight: "400",
+  variable: "--font-tiro",
+  display: "swap",
+  preload: false,
 });
 
 export const viewport: Viewport = {
@@ -50,9 +62,13 @@ export const metadata: Metadata = {
     "R.P Jewellers & Sons",
     "wedding jewellery",
     "Dalsinghsarai",
+    "wedding jewellery in Dalsinghsarai",
+    "gold jewellery Bihar",
+    "HUID hallmark jewellery",
+    "CB payel",
+    "bridal jewellery Samastipur region",
     "hallmark gold",
     "bridal set",
-    "Bihar jeweller",
   ],
   openGraph: {
     title: "R.P Jewellers & Sons | Wedding Jewellery since 1998",
@@ -72,16 +88,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en-IN" className={`${cormorant.variable} ${jost.variable} ${playfair.variable}`}>
-      <body className="font-sans antialiased">
-        <a className="skip-link" href="#main">
-          Skip to content
-        </a>
-        <Preloader />
-        <Navbar />
-        {children}
-        <Footer />
-        <FloatingActions />
+      <html lang="en-IN" className={`${cormorant.variable} ${dmSans.variable} ${devanagari.variable} ${tiro.variable}`}>
+      <body className="font-sans font-normal antialiased">
+        <LanguageProvider>
+          <a className="skip-link" href="#main">
+            <LocaleText k="skip" />
+          </a>
+          <RouteShine />
+          <Preloader />
+          <Navbar />
+          {children}
+          <Footer />
+          <FloatingActions />
+        </LanguageProvider>
         <JsonLd />
         <noscript>
           <style>{`[data-reveal]{opacity:1!important;transform:none!important}`}</style>

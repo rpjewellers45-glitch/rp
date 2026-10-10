@@ -11,6 +11,7 @@ type Props = {
   type?: "button" | "submit";
   onClick?: () => void;
   ariaLabel?: string;
+  disabled?: boolean;
 };
 
 export function GoldButton({
@@ -22,13 +23,15 @@ export function GoldButton({
   type = "button",
   onClick,
   ariaLabel,
+  disabled = false,
 }: Props) {
   const classes = cn(
-    "inline-flex min-h-11 items-center justify-center gap-2 px-6 py-3 text-[12px] font-medium uppercase tracking-[0.18em] transition-colors duration-300",
+    "type-button inline-flex min-h-11 items-center justify-center gap-2 px-7 py-3 transition-[color,background-color,transform,filter] duration-300 motion-safe:hover:-translate-y-0.5",
     variant === "solid" &&
       "relative overflow-hidden bg-[linear-gradient(120deg,#A8842F_0%,#E6CB8A_42%,#D4AF37_68%,#A8842F_100%)] text-maroon-900 hover:brightness-105",
     variant === "outline" && tone === "onDark" && "border border-gold-400 text-gold-300 hover:bg-gold-400/10",
     variant === "outline" && tone === "onLight" && "border border-gold-600 text-maroon-900 hover:bg-gold-400/15",
+    disabled && "pointer-events-none opacity-60",
     className,
   );
 
@@ -68,7 +71,7 @@ export function GoldButton({
   }
 
   return (
-    <button type={type} className={classes} onClick={onClick} aria-label={ariaLabel}>
+    <button type={type} className={classes} onClick={onClick} aria-label={ariaLabel} disabled={disabled}>
       {content}
     </button>
   );

@@ -4,6 +4,8 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useRef, type KeyboardEvent as ReactKeyboardEvent } from "react";
 import type { GalleryItem } from "@/data/gallery";
+import { L } from "@/components/i18n/LocaleText";
+import { useI18n } from "@/components/i18n/LanguageProvider";
 
 export function Lightbox({
   items,
@@ -19,6 +21,7 @@ export function Lightbox({
   onNext: () => void;
 }) {
   const dialogRef = useRef<HTMLDivElement>(null);
+  const { locale, t } = useI18n();
   const current = items[index];
 
   useEffect(() => {
@@ -65,18 +68,18 @@ export function Lightbox({
       ref={dialogRef}
       role="dialog"
       aria-modal="true"
-      aria-label={current.title}
+      aria-label={current.title[locale]}
       tabIndex={-1}
       className="fixed inset-0 z-[70] flex items-center justify-center bg-maroon-900/92 p-4 outline-none"
       onClick={onClose}
       onKeyDown={onTab}
     >
-      <p className="sr-only">Use the left and right arrow keys to change photographs. Escape closes the viewer.</p>
+      <p className="sr-only">{t("gallery.help")}</p>
       <button
         type="button"
         className="absolute right-4 top-4 flex h-11 w-11 items-center justify-center border border-gold-400 text-gold-300"
         onClick={onClose}
-        aria-label="Close gallery"
+        aria-label={t("gallery.close")}
       >
         <X className="h-5 w-5" />
       </button>
@@ -87,7 +90,7 @@ export function Lightbox({
           event.stopPropagation();
           onPrev();
         }}
-        aria-label="Previous photograph"
+        aria-label={t("gallery.prev")}
       >
         <ChevronLeft className="h-5 w-5" />
       </button>
@@ -98,7 +101,7 @@ export function Lightbox({
           event.stopPropagation();
           onNext();
         }}
-        aria-label="Next photograph"
+        aria-label={t("gallery.next")}
       >
         <ChevronRight className="h-5 w-5" />
       </button>
@@ -106,15 +109,19 @@ export function Lightbox({
         <div className="relative h-[68vh] w-full">
           <Image
             src={current.src}
-            alt={current.alt}
+            alt={current.alt[locale]}
             fill
             sizes="100vw"
+            quality={75}
+            loading="eager"
             className="object-contain"
           />
         </div>
         <figcaption className="mt-4 text-center">
-          <p className="font-serif text-2xl text-ivory">{current.title}</p>
-          <p className="mt-1 text-[11px] uppercase tracking-[0.28em] text-gold-300">
+          <p className="type-title text-ivory">
+            <L text={current.title} />
+          </p>
+          <p className="mt-1 type-eyebrow text-gold-300">
             {index + 1} / {items.length}
           </p>
         </figcaption>

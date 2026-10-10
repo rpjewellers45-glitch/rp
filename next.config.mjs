@@ -6,7 +6,7 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"],
   },
   experimental: {
-    optimizePackageImports: ["lucide-react"],
+    optimizePackageImports: ["lucide-react", "framer-motion"],
   },
   webpack: (config) => {
     // Windows reports the drive letter in two cases and webpack logs a cache warning for it.

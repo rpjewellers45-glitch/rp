@@ -12,9 +12,9 @@ export function SectionHeading({
   id,
   className,
 }: {
-  eyebrow: string;
+  eyebrow: ReactNode;
   title: ReactNode;
-  description?: string;
+  description?: ReactNode;
   align?: "center" | "left";
   tone?: "light" | "dark";
   gem?: boolean;
@@ -24,14 +24,14 @@ export function SectionHeading({
   const light = tone === "light";
 
   return (
-    <div className={cn(align === "center" ? "mx-auto max-w-2xl text-center" : "max-w-xl text-left", className)}>
-      <p className={cn("text-[11px] font-medium uppercase tracking-[0.34em]", light ? "text-maroon-700" : "text-gold-300")}>
+    <div className={cn(align === "center" ? "mx-auto max-w-3xl text-center" : "max-w-xl text-left", className)}>
+      <p className={cn("type-eyebrow", light ? "text-gold-600" : "text-gold-300")}>
         {eyebrow}
       </p>
       <h2
         id={id}
         className={cn(
-          "mt-3 font-serif text-[2.35rem] leading-[1.12] sm:text-5xl",
+          "type-section mt-4",
           light ? "text-maroon-900" : "text-ivory",
         )}
       >
@@ -43,7 +43,13 @@ export function SectionHeading({
         className={align === "center" ? "mx-auto" : ""}
       />
       {description ? (
-        <p className={cn("mt-4 text-base leading-relaxed md:text-lg", light ? "text-maroon-800/90" : "text-ivory/80")}>
+        <p
+          className={cn(
+            "type-body mt-5 max-w-2xl",
+            align === "center" && "mx-auto",
+            light ? "text-maroon-800/90" : "text-ivory/75",
+          )}
+        >
           {description}
         </p>
       ) : null}

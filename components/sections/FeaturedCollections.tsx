@@ -1,4 +1,5 @@
 import { featuredCollections } from "@/data/collections";
+import { LocaleText } from "@/components/i18n/LocaleText";
 import { CollectionCard } from "@/components/ui/CollectionCard";
 import { Container } from "@/components/ui/Container";
 import { FadeIn } from "@/components/ui/Reveal";
@@ -8,15 +9,15 @@ import { Pattern } from "@/components/ui/Pattern";
 
 export function FeaturedCollections() {
   return (
-    <section id="collections" aria-labelledby="collections-heading" className="relative bg-ivory py-20 md:py-28">
+    <section id="collections" aria-labelledby="collections-heading" className="relative bg-ivory py-24 md:py-32">
       <Pattern />
       <Container className="relative">
         <FadeIn>
           <SectionHeading
             id="collections-heading"
-            eyebrow="Collections"
-            title="Chosen for the wedding"
-            description="Bridal sets, payal, gems and diamond — the ornaments we keep for a wedding day. Pieces without a photograph yet are marked, and will be added from the shop."
+            eyebrow={<LocaleText k="collections.eyebrow" />}
+            title={<LocaleText k="collections.title" />}
+            description={<LocaleText k="collections.description" />}
           />
         </FadeIn>
         <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -28,7 +29,7 @@ export function FeaturedCollections() {
         </div>
         <div className="mt-12 text-center">
           <GoldButton href="/collections" tone="onLight" variant="outline">
-            View all collections
+            <LocaleText k="collections.all" />
           </GoldButton>
         </div>
       </Container>

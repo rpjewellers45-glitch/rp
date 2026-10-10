@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useLayoutEffect, useState } from "react";
+import { LocaleText } from "@/components/i18n/LocaleText";
 import { Logo } from "@/components/ui/Logo";
 
 const STORAGE_KEY = "rp-preloader-seen";
@@ -63,7 +64,7 @@ export function Preloader() {
         >
           <div className="flex flex-col items-center px-6 text-center">
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.55 }}>
-              <Logo size="splash" className="mx-auto" />
+              <Logo size="splash" eager className="mx-auto" />
             </motion.div>
             <motion.span
               aria-hidden="true"
@@ -72,14 +73,16 @@ export function Preloader() {
               animate={{ scaleX: 1 }}
               transition={{ duration: 0.7, delay: 0.15 }}
             />
-            <p className="mt-3 text-[11px] uppercase tracking-[0.34em] text-gold-300">Since 1998</p>
+            <p className="mt-3 type-eyebrow text-gold-300">
+              <LocaleText k="trust.since" />
+            </p>
           </div>
           <button
             type="button"
             onClick={() => setVisible(false)}
-            className="absolute bottom-8 text-[11px] uppercase tracking-[0.28em] text-gold-300 underline-offset-4 hover:underline"
+            className="absolute bottom-8 type-eyebrow text-gold-300 underline-offset-4 hover:underline"
           >
-            Skip
+            <LocaleText k="preloader.skip" />
           </button>
         </motion.div>
       ) : null}

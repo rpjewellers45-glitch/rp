@@ -1,11 +1,12 @@
 # R.P Jewellers & Sons
 
-A frontend-only demo site for R.P Jewellers & Sons, a wedding jewellery shop in Dalsinghsarai, Bihar, since 1998.
+Wedding jewellery site for the Dalsinghsarai branch. Maroon and gold, front end only, ready to deploy on Vercel.
 
-## Run
+## Setup
 
 ```bash
 npm install
+cp .env.example .env.local
 npm run dev
 ```
 
@@ -17,57 +18,36 @@ npm run build
 npm start
 ```
 
-There is no backend. The contact form checks the fields in the browser and then asks the visitor to call or WhatsApp. It does not send email.
+Set `NEXT_PUBLIC_SITE_URL` to the live domain before you deploy. That value is used for canonical links, the sitemap, and structured data.
 
-## Where to edit content
+## Editing content
 
-All shop facts live in typed files under `data/`. Change them there and the pages pick the new copy up.
+A short guide for the shop is in [docs/content-guide.md](docs/content-guide.md).
 
 | File | What it controls |
 | --- | --- |
-| `data/shop.ts` | Name, proprietor, ambassador, phone, email, address, 7.9% offer, hours note, footer policy |
-| `data/copy.ts` | Hero line, about story, owner quote, stats, about-page promises, offer banner |
-| `data/collections.ts` | Collection names, groups, summaries, and which photograph each card uses |
-| `data/gallery.ts` | Gallery photographs, titles, and alt text |
-| `data/features.ts` | “Why Choose R.P Jewellers” cards |
-| `data/testimonials.ts` | Sample reviews. Replace these before launch |
-| `data/navigation.ts` | Navbar and footer links |
+| `data/shop.ts` | Name, phone, address, 7.9% offer, hours |
+| `data/copy.ts` | About story, owner quote, offer paragraph |
+| `data/i18n.ts` | English / हिंदी labels for the menu, hero, and key headings |
+| `data/products.ts` | Every product on the collections page |
+| `data/faq.ts` | FAQ answers |
+| `data/guide.ts` | Bridal checklist |
+| `data/about.ts` | Timeline and values |
+| `data/gallery.ts` | Home gallery |
+| `data/collections.ts` | Home category cards |
+| `data/claims-to-verify.md` | Lines that must not go live until confirmed |
 
-## Where to replace images
+## Replacing images
 
-Optimized images used by the site are in `public/images/`. The files you dropped in `assets/` are the originals.
+Put a new file in `public/images/products/` with a short name (`cb-payel.jpg`) and point a product at it in `data/products.ts`.
 
-| Site file | Used for |
-| --- | --- |
-| `public/images/logo.png` | Navbar, footer, loader, favicon source |
-| `public/images/owner.jpg` | Proprietor portrait in Our Story |
-| `public/images/gallery/bridal-01.jpg` | Wedding gold card and gallery |
-| `public/images/gallery/bridal-02.jpg` | Bridal sets card and gallery |
-| `public/images/gallery/bridal-03.jpg` | Hero photograph and gallery |
-| `public/images/gallery/bridal-04.jpg` | Gems card and gallery |
-| `public/images/gallery/choker-01.jpg` | Necklaces & chokers |
-| `public/images/gallery/floral-01.jpg` | Jhumka & earrings |
-| `public/images/gallery/necklace-01.jpg` through `necklace-04.jpg` | Gallery |
-| `public/images/gallery/festive-01.jpg` | Gallery |
-| `app/icon.png` and `app/apple-icon.png` | Browser icon, made from the logo |
+`next/image` serves AVIF or WebP, with a blur while the file loads. Hero uses the fringe haar. The shopfront is `public/images/shop-front.jpg`.
 
-Cards for CB Payel, Sukh Payel, diamond, bangles, maang tikka, and rings use a gold placeholder. Put a real file in `public/images/gallery/` and set `image` (and `imageAlt`) for that item in `data/collections.ts`. Each missing photograph is marked with a `TODO` in that file.
+## Deploying to Vercel
 
-If `owner.jpg` or a gallery file is missing, the frame falls back to a maroon panel instead of a broken image.
+1. Push the repository.
+2. Import the project in Vercel. Framework preset: Next.js.
+3. Add `NEXT_PUBLIC_SITE_URL`.
+4. Deploy. `npm run build` is the production check.
 
-## Claims that are not on the site yet
-
-In `data/shop.ts` there is a TODO next to two lines that still need the owner’s confirmation. They are **not** shown on the pages:
-
-- “30% less”
-- “Brahmand certified”
-
-BIS hallmark is shown as **to confirm**. Shop hours are shown as **to be confirmed**. The owner quote in `data/copy.ts` is drafted for this demo and should be replaced with his own words.
-
-Three supplier photographs in `assets/` were left out of the gallery because they carry another seller’s watermark and a “100%Less” line. Two chain screenshots were left out because they include a phone status bar. Say if you want those prepared differently and added.
-
-## Pages
-
-- `/` long scroll: hero, trust strip, collections, why us, offer, story, gallery, reviews, visit, contact
-- `/about`
-- `/collections`
+There is no database. Gold rate, opening hours, and two marketing claims stay unpublished until the shop confirms them. See `data/claims-to-verify.md`.

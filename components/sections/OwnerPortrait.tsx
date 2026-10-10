@@ -3,10 +3,13 @@
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { shop } from "@/data/shop";
+import { L } from "@/components/i18n/LocaleText";
+import { useI18n } from "@/components/i18n/LanguageProvider";
 import { OrnateFrame } from "@/components/ui/OrnateFrame";
 import { SafeImage } from "@/components/ui/SafeImage";
 
 export function OwnerPortrait() {
+  const { locale } = useI18n();
   const ref = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
   const { scrollYProgress } = useScroll({
@@ -22,7 +25,7 @@ export function OwnerPortrait() {
           <motion.div className="absolute -inset-y-[8%] inset-x-0" style={{ y }}>
             <SafeImage
               src={shop.proprietor.image}
-              alt={shop.proprietor.imageAlt}
+              alt={shop.proprietor.imageAlt[locale]}
               sizes="(max-width: 1024px) 90vw, 40vw"
               className="object-cover object-top"
               fallback={
@@ -36,7 +39,9 @@ export function OwnerPortrait() {
       </OrnateFrame>
       <figcaption className="mt-4 text-center font-serif text-lg text-maroon-900">
         {shop.proprietor.name} ({shop.proprietor.knownAs})
-        <span className="mt-1 block text-[11px] uppercase tracking-[0.24em] text-maroon-700">{shop.proprietor.role}</span>
+        <span className="mt-1 block type-eyebrow text-maroon-700">
+          <L text={shop.proprietor.role} />
+        </span>
       </figcaption>
     </figure>
   );

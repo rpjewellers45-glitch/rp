@@ -1,108 +1,107 @@
-import Link from "next/link";
-import { heroCopy } from "@/data/copy";
+"use client";
+
+import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 import { shop } from "@/data/shop";
+import { useI18n } from "@/components/i18n/LanguageProvider";
 import { GoldButton } from "@/components/ui/GoldButton";
-import { Mandala } from "@/components/ui/Motifs";
-import { OrnateFrame } from "@/components/ui/OrnateFrame";
-import { Pattern } from "@/components/ui/Pattern";
+import { OrnamentDivider } from "@/components/ui/OrnamentDivider";
 import { SafeImage } from "@/components/ui/SafeImage";
 
-const particles = [
-  [12, 18, 0, 3],
-  [22, 72, 1.2, 2],
-  [78, 14, 0.4, 2],
-  [88, 40, 1.8, 3],
-  [68, 78, 0.8, 2],
-  [34, 36, 2.1, 2],
-  [52, 12, 1.4, 2],
-  [84, 86, 0.2, 3],
-  [8, 48, 1.6, 2],
-  [60, 56, 2.4, 2],
-  [42, 84, 0.6, 3],
-  [93, 26, 1.1, 2],
-] as const;
-
 export function Hero() {
+  const reduce = useReducedMotion();
+  const { locale, t } = useI18n();
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+  const y = useTransform(scrollYProgress, [0, 1], reduce ? ["0%", "0%"] : ["0%", "-12%"]);
+
   return (
-    <section id="home" className="relative flex min-h-[100svh] items-center overflow-hidden bg-maroon-900 text-ivory">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,#7A1424_0%,#3E0A12_46%,#2A070C_100%)]" />
-      <Pattern />
-      <Mandala className="pointer-events-none absolute -right-16 top-8 hidden h-[34rem] w-[34rem] text-gold-300 opacity-[0.08] lg:block" />
-      {particles.map(([left, top, delay, size]) => (
-        <span
-          key={`${left}-${top}`}
-          aria-hidden="true"
-          className="pointer-events-none absolute rounded-full bg-gold-300 motion-safe:animate-floaty"
-          style={{
-            left: `${left}%`,
-            top: `${top}%`,
-            width: size,
-            height: size,
-            animationDelay: `${delay}s`,
-          }}
-        />
-      ))}
-
-      <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-14 px-5 pb-24 pt-28 md:px-8 lg:grid-cols-[1.08fr_0.92fr] lg:gap-10 lg:pt-32">
-        <div className="relative">
-          <svg
-            className="pointer-events-none absolute -left-4 top-0 hidden h-44 w-40 text-gold-400/50 lg:block"
-            viewBox="0 0 120 150"
-            fill="none"
-            aria-hidden="true"
+    <section ref={sectionRef} id="home" className="relative bg-ivory pt-[4.75rem] text-maroon-900 md:pt-[5.25rem]">
+        <div
+          className={
+            reduce
+              ? "relative h-[48vw] min-h-[220px] max-h-[520px] overflow-hidden bg-maroon-900"
+              : "sticky top-[4.75rem] z-0 h-[48vw] min-h-[220px] max-h-[520px] overflow-hidden bg-maroon-900 md:top-[5.25rem]"
+          }
+        >
+          <motion.div
+            className={reduce ? "absolute inset-0" : "absolute inset-x-0 top-[-18%] h-[140%]"}
+            style={{ y }}
           >
-            <path className="draw-path" d="M16 34c22 14 66 14 88 0" stroke="currentColor" strokeWidth="1" />
-            <path className="draw-path" d="M30 40c8 30 12 52 30 74 18-22 22-44 30-74" stroke="currentColor" strokeWidth="1" />
-            <circle className="draw-path" cx="60" cy="122" r="7" stroke="currentColor" strokeWidth="1" />
-          </svg>
-          <p className="text-[11px] uppercase tracking-[0.34em] text-gold-300">{heroCopy.eyebrow}</p>
-          <h1 className="mt-4 max-w-xl font-serif text-[2.7rem] leading-[1.05] sm:text-6xl lg:text-[4.4rem]">
-            {heroCopy.titleBefore}{" "}
-            <span className="text-gold-gradient italic">{heroCopy.titleAccent}</span> {heroCopy.titleAfter}
-          </h1>
-          <p className="mt-5 max-w-md text-base leading-relaxed text-ivory/80 md:text-lg">{heroCopy.subtitle}</p>
-          <p className="mt-3 text-[11px] uppercase tracking-[0.28em] text-gold-300/90">{shop.weddingOnly}</p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <GoldButton href="/#collections">{heroCopy.primaryCta}</GoldButton>
-            <GoldButton href="/#visit" variant="outline">
-              {heroCopy.secondaryCta}
-            </GoldButton>
-          </div>
-        </div>
-
-        <div className="relative mx-auto w-full max-w-md">
-          <svg
-            className="pointer-events-none absolute -inset-6 h-[calc(100%+3rem)] w-[calc(100%+3rem)] text-gold-400/70 motion-safe:animate-spin-slow"
-            viewBox="0 0 100 100"
-            aria-hidden="true"
-          >
-            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" strokeWidth="0.35" strokeDasharray="1.4 2.2" />
-          </svg>
-          <OrnateFrame>
-            <div className="relative aspect-[3/4]">
+            <motion.div
+              className="absolute inset-0"
+              initial={reduce ? false : { scale: 1.08 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 9, ease: [0.22, 1, 0.36, 1] }}
+            >
               <SafeImage
-                src="/images/gallery/bridal-03.jpg"
-                alt="Gold bridal haar with a fine fringe and matching earrings, from R.P Jewellers & Sons"
-                sizes="(max-width: 1024px) 90vw, 420px"
+                src="/images/hero-shop-banner.jpg"
+                alt={t("hero.photo")}
+                sizes="100vw"
                 priority
                 className="object-cover object-center"
               />
-            </div>
-          </OrnateFrame>
-          <div className="absolute bottom-6 right-3 z-20 max-w-[11.5rem] border border-gold-300/80 bg-maroon-900/88 px-4 py-3 text-center backdrop-blur-sm sm:right-0">
-            <p className="text-[10px] uppercase tracking-[0.28em] text-gold-300">Wedding gold</p>
-            <p className="mt-1 font-serif text-xl leading-tight text-ivory">{shop.makingChargeLabel}</p>
-          </div>
+            </motion.div>
+          </motion.div>
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-b from-transparent to-ivory sm:h-36"
+          />
         </div>
-      </div>
 
-      <Link
-        href="#collections"
-        className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center gap-2 text-gold-300"
-      >
-        <span className="text-[10px] uppercase tracking-[0.32em]">Scroll</span>
-        <span className="block h-10 w-px origin-top bg-gradient-to-b from-gold-300 to-transparent motion-safe:animate-scroll-line" />
-      </Link>
+      <div className="relative z-10 bg-ivory">
+      <div className="mx-auto flex max-w-3xl flex-col items-center px-6 pb-24 pt-6 text-center md:pb-32 md:pt-8">
+        <motion.p
+          className="type-kicker text-maroon-800"
+          initial={reduce ? false : { opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          {t("hero.hindi")}
+        </motion.p>
+        <motion.h1
+          className="type-hero mt-5 text-maroon-900"
+          initial={reduce ? false : { opacity: 0, y: 14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.75, delay: 0.08 }}
+        >
+          {t("hero.before")} <span className="italic text-gold-600">{t("hero.accent")}</span> {t("hero.after")}
+        </motion.h1>
+        <OrnamentDivider className="mx-auto mt-6" />
+        <motion.p
+          className="type-body mt-6 max-w-lg text-maroon-800/90"
+          initial={reduce ? false : { opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.22 }}
+        >
+          {t("hero.subtitle")}
+        </motion.p>
+        <motion.p
+          className="type-eyebrow mt-3 text-maroon-700"
+          initial={reduce ? false : { opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.7, delay: 0.34 }}
+        >
+          {shop.weddingOnly[locale]}
+        </motion.p>
+        <motion.div
+          className="mt-8 flex flex-col items-center gap-3 sm:flex-row"
+          initial={reduce ? false : { opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.42 }}
+        >
+          <GoldButton href="/collections" tone="onLight">
+            {t("hero.primary")}
+          </GoldButton>
+          <GoldButton href="/#visit" variant="outline" tone="onLight">
+            {t("hero.secondary")}
+          </GoldButton>
+        </motion.div>
+      </div>
+      </div>
     </section>
   );
 }

@@ -9,7 +9,7 @@ export function PlaceholderArt({ icon }: { icon: CollectionIcon }) {
       <div className="relative flex h-16 w-16 items-center justify-center rounded-full border border-gold-400/55">
         <CollectionGlyph name={icon} />
       </div>
-      <p className="relative mt-4 px-6 text-center text-[10px] uppercase tracking-[0.28em]">Photograph to follow</p>
+      <p className="relative mt-4 px-6 text-center type-eyebrow">Photograph to follow</p>
     </div>
   );
 }

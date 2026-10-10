@@ -2,118 +2,142 @@
 
 import { Menu, Phone, X } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { navLinks } from "@/data/navigation";
 import { shop } from "@/data/shop";
+import { LanguageToggle } from "@/components/i18n/LocaleText";
+import { useI18n } from "@/components/i18n/LanguageProvider";
 import { GoldButton } from "@/components/ui/GoldButton";
 import { Logo } from "@/components/ui/Logo";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  const reduce = useReducedMotion();
+  const blockOpen = useRef(false);
+  const { t } = useI18n();
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  const closeMenu = () => {
+    blockOpen.current = true;
+    document.body.style.overflow = "";
+    document.body.style.paddingRight = "";
+    document.documentElement.style.scrollBehavior = "";
+    setOpen(false);
+    window.setTimeout(() => {
+      blockOpen.current = false;
+    }, 450);
+  };
+
+  const openMenu = () => {
+    if (blockOpen.current) return;
+    setOpen(true);
+  };
+
+  const onNavigate = (event: MouseEvent<HTMLAnchorElement>, href: string) => {
+    const url = new URL(href, window.location.href);
+    const samePageHash = url.pathname === window.location.pathname && url.hash;
+    if (samePageHash) event.preventDefault();
+    closeMenu();
+    if (!samePageHash) return;
+    const id = decodeURIComponent(url.hash.slice(1));
+    const root = document.documentElement;
+    root.style.scrollBehavior = "auto";
+    document.getElementById(id)?.scrollIntoView({ block: "start" });
+    root.style.scrollBehavior = "";
+    window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+  };
 
   useEffect(() => {
     if (!open) return;
-    const original = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
+    const root = document.documentElement;
+    const body = document.body;
+    const previousOverflow = body.style.overflow;
+    const previousPadding = body.style.paddingRight;
+    const previousScroll = root.style.scrollBehavior;
+    const gutter = window.innerWidth - root.clientWidth;
+    root.style.scrollBehavior = "auto";
+    body.style.overflow = "hidden";
+    if (gutter > 0) body.style.paddingRight = `${gutter}px`;
     const onKey = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
+      if (event.key === "Escape") closeMenu();
     };
     window.addEventListener("keydown", onKey);
     return () => {
-      document.body.style.overflow = original;
+      body.style.overflow = previousOverflow;
+      body.style.paddingRight = previousPadding;
+      root.style.scrollBehavior = previousScroll;
       window.removeEventListener("keydown", onKey);
     };
   }, [open]);
 
-  const solid = scrolled || open;
-
   return (
+    <>
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-colors duration-500",
-        solid ? "border-b border-gold-500/80 bg-maroon-900/92 backdrop-blur-md" : "border-b border-transparent bg-transparent",
+        "fixed inset-x-0 top-0 z-50 border-b border-gold-500/80 bg-maroon-900",
       )}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-5 md:h-24 md:px-8">
-        <Link href="/#home" className="flex shrink-0 items-center gap-3" aria-label="R.P Jewellers & Sons, home">
-          <Logo priority />
+        <Link href="/#home" className="flex shrink-0 items-center gap-3" aria-label={t("nav.brand")}>
+          <Logo eager />
           <span className="hidden leading-none xl:block">
-            <span className="block font-serif text-[1.7rem] text-ivory">R.P Jewellers</span>
-            <span className="mt-1 block text-[10px] uppercase tracking-[0.32em] text-gold-300">& Sons</span>
+            <span className="type-brand block text-ivory">R.P Jewellers</span>
+            <span className="type-eyebrow mt-1 block text-gold-300">& Sons</span>
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-3 xl:gap-5 lg:flex" aria-label={t("nav.primary")}>
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-[12px] uppercase tracking-[0.18em] text-ivory/90 transition-colors hover:text-gold-300"
+              className="type-nav nav-link text-ivory/90 transition-colors duration-300 hover:text-gold-300"
             >
-              {link.label}
+              {t(link.key)}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden md:block">
-          <GoldButton href={shop.phoneHref}>
-            <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-            Call Now
-          </GoldButton>
+        <div className="hidden items-center gap-3 md:flex">
+          <LanguageToggle />
+          <div className="hidden xl:block">
+            <GoldButton href={shop.phoneHref}>
+              <Phone className="h-3.5 w-3.5" aria-hidden="true" />
+              {t("nav.call")}
+            </GoldButton>
+          </div>
         </div>
 
         <button
           type="button"
-          className="flex h-11 w-11 items-center justify-center border border-gold-400/70 text-gold-300 lg:hidden"
+          className={cn(
+            "flex h-11 w-11 items-center justify-center border border-gold-400/70 text-gold-300 lg:hidden",
+            open && "pointer-events-none",
+          )}
           aria-expanded={open}
           aria-controls="mobile-menu"
-          onClick={() => setOpen((value) => !value)}
+          onClick={openMenu}
         >
-          <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
-          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          <span className="sr-only">{t("nav.menu")}</span>
+          <Menu className="h-5 w-5" />
         </button>
       </div>
+    </header>
 
-      <AnimatePresence>
-        {open ? (
-          <>
-            <motion.button
-              type="button"
-              aria-label="Close menu"
-              className="fixed inset-0 z-[60] bg-maroon-900/55 lg:hidden"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              onClick={() => setOpen(false)}
-            />
-            <motion.nav
+      {open ? (
+            <nav
               id="mobile-menu"
-              aria-label="Mobile"
-              className="fixed inset-y-0 right-0 z-[61] flex w-[min(100%,22rem)] flex-col bg-maroon-900 px-6 py-6 text-ivory lg:hidden"
-              initial={reduce ? false : { x: "100%" }}
-              animate={{ x: 0 }}
-              exit={reduce ? { opacity: 0 } : { x: "100%" }}
-              transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+              aria-label={t("nav.mobile")}
+              className="fixed inset-0 z-[80] flex h-[100dvh] w-screen flex-col overflow-y-auto overscroll-none bg-maroon-900 px-6 py-6 text-ivory lg:hidden"
+              style={{ backgroundColor: "#3E0A12" }}
             >
               <div className="flex items-center justify-between">
-                <Logo />
+                <Logo eager />
                 <button
                   type="button"
                   className="flex h-11 w-11 items-center justify-center border border-gold-400/70 text-gold-300"
-                  onClick={() => setOpen(false)}
+                  onClick={closeMenu}
                 >
-                  <span className="sr-only">Close menu</span>
+                  <span className="sr-only">{t("nav.close")}</span>
                   <X className="h-5 w-5" />
                 </button>
               </div>
@@ -122,25 +146,24 @@ export function Navbar() {
                   <li key={link.href} className="border-b border-gold-500/25">
                     <Link
                       href={link.href}
-                      className="block py-4 font-serif text-3xl text-ivory"
-                      onClick={() => setOpen(false)}
+                      className="type-menu block py-4 text-ivory transition-colors duration-300 hover:text-gold-300"
+                      onClick={(event) => onNavigate(event, link.href)}
                     >
-                      {link.label}
+                      {t(link.key)}
                     </Link>
                   </li>
                 ))}
               </ul>
               <div className="mt-auto pt-8">
-                <GoldButton href={shop.phoneHref} className="w-full" onClick={() => setOpen(false)}>
+                <LanguageToggle className="mb-4" />
+                <GoldButton href={shop.phoneHref} className="w-full" onClick={closeMenu}>
                   <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-                  Call Now
+                  {t("nav.call")}
                 </GoldButton>
                 <p className="mt-4 text-center text-sm text-gold-300">{shop.phoneDisplay}</p>
               </div>
-            </motion.nav>
-          </>
-        ) : null}
-      </AnimatePresence>
-    </header>
+            </nav>
+      ) : null}
+    </>
   );
 }

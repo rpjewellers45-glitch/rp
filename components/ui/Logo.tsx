@@ -4,10 +4,12 @@ import { cn } from "@/lib/utils";
 export function Logo({
   className,
   priority = false,
+  eager = false,
   size = "nav",
 }: {
   className?: string;
   priority?: boolean;
+  eager?: boolean;
   size?: "nav" | "splash";
 }) {
   return (
@@ -24,6 +26,7 @@ export function Logo({
         fill
         sizes={size === "splash" ? "128px" : "88px"}
         priority={priority}
+        loading={priority ? undefined : eager ? "eager" : "lazy"}
         className="object-contain object-left"
       />
     </span>

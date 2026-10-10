@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { CornerBrackets } from "@/components/ui/CornerBrackets";
 import { cn } from "@/lib/utils";
 
 export function OrnateFrame({ children, className }: { children: ReactNode; className?: string }) {
@@ -13,6 +14,7 @@ export function OrnateFrame({ children, className }: { children: ReactNode; clas
           aria-hidden="true"
           className="pointer-events-none absolute inset-2 z-10 rounded-t-[10rem] border border-gold-300/30"
         />
+        <CornerBrackets className="border-gold-300" />
         {children}
       </div>
     </div>

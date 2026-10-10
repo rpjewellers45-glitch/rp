@@ -3,6 +3,12 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./data/**/*.{ts,tsx}"],
   theme: {
+    fontFamily: {
+      serif: ["var(--font-display)", "Georgia", "serif"],
+      sans: ["var(--font-ui)", "system-ui", "sans-serif"],
+      accent: ["var(--font-display)", "Georgia", "serif"],
+      mono: ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"],
+    },
     extend: {
       colors: {
         maroon: {
@@ -21,11 +27,6 @@ const config: Config = {
         emerald: {
           900: "#0B3B2E",
         },
-      },
-      fontFamily: {
-        serif: ["var(--font-cormorant)", "Georgia", "serif"],
-        sans: ["var(--font-jost)", "system-ui", "sans-serif"],
-        accent: ["var(--font-playfair)", "Georgia", "serif"],
       },
       maxWidth: {
         page: "80rem",
