@@ -23,16 +23,20 @@ export function Hero() {
         <div
           className={
             reduce
-              ? "relative h-[48vw] min-h-[220px] max-h-[520px] overflow-hidden bg-maroon-900"
-              : "sticky top-[4.75rem] z-0 h-[48vw] min-h-[220px] max-h-[520px] overflow-hidden bg-maroon-900 md:top-[5.25rem]"
+              ? "relative aspect-video w-full overflow-hidden bg-maroon-900 md:aspect-auto md:h-[48vw] md:min-h-[220px] md:max-h-[520px]"
+              : "sticky top-[4.75rem] z-0 aspect-video w-full overflow-hidden bg-maroon-900 md:top-[5.25rem] md:aspect-auto md:h-[48vw] md:min-h-[220px] md:max-h-[520px]"
           }
         >
           <motion.div
-            className={reduce ? "absolute inset-0" : "absolute inset-x-0 top-[-18%] h-[140%]"}
+            className={
+              reduce
+                ? "absolute inset-0"
+                : "absolute inset-0 max-md:!transform-none md:inset-x-0 md:top-[-18%] md:h-[140%]"
+            }
             style={{ y }}
           >
             <motion.div
-              className="absolute inset-0"
+              className="absolute inset-0 max-md:!transform-none"
               initial={reduce ? false : { scale: 1.08 }}
               animate={{ scale: 1 }}
               transition={{ duration: 9, ease: [0.22, 1, 0.36, 1] }}
