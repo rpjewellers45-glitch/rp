@@ -1,11 +1,14 @@
 "use client";
 
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import Image from "next/image";
 import { useEffect, useRef, type KeyboardEvent as ReactKeyboardEvent } from "react";
 import type { GalleryItem } from "@/data/gallery";
 import { L } from "@/components/i18n/LocaleText";
 import { useI18n } from "@/components/i18n/LanguageProvider";
+import { cn } from "@/lib/utils";
+
+const controlClass =
+  "pointer-events-auto flex h-11 w-11 items-center justify-center border border-gold-400 bg-maroon-900 text-gold-200 shadow-[0_10px_28px_rgba(0,0,0,0.45)] transition-[color,background-color,border-color] duration-300 hover:border-gold-300 hover:bg-gold-400 hover:text-maroon-900 md:h-12 md:w-12";
 
 export function Lightbox({
   items,
@@ -70,62 +73,76 @@ export function Lightbox({
       aria-modal="true"
       aria-label={current.title[locale]}
       tabIndex={-1}
-      className="fixed inset-0 z-[70] flex items-center justify-center bg-maroon-900/92 p-4 outline-none"
+      className="fixed inset-0 z-[90] bg-maroon-900 outline-none"
       onClick={onClose}
       onKeyDown={onTab}
     >
       <p className="sr-only">{t("gallery.help")}</p>
-      <button
-        type="button"
-        className="absolute right-4 top-4 flex h-11 w-11 items-center justify-center border border-gold-400 text-gold-300"
-        onClick={onClose}
-        aria-label={t("gallery.close")}
-      >
-        <X className="h-5 w-5" />
-      </button>
-      <button
-        type="button"
-        className="absolute left-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-gold-400 text-gold-300 md:left-6"
-        onClick={(event) => {
-          event.stopPropagation();
-          onPrev();
-        }}
-        aria-label={t("gallery.prev")}
-      >
-        <ChevronLeft className="h-5 w-5" />
-      </button>
-      <button
-        type="button"
-        className="absolute right-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-gold-400 text-gold-300 md:right-6"
-        onClick={(event) => {
-          event.stopPropagation();
-          onNext();
-        }}
-        aria-label={t("gallery.next")}
-      >
-        <ChevronRight className="h-5 w-5" />
-      </button>
-      <figure className="w-full max-w-4xl" onClick={(event) => event.stopPropagation()}>
-        <div className="relative h-[68vh] w-full">
-          <Image
-            src={current.src}
-            alt={current.alt[locale]}
-            fill
-            sizes="100vw"
-            quality={75}
-            loading="eager"
-            className="object-contain"
-          />
+      <div className="pointer-events-none relative z-10 grid h-full grid-rows-[auto_minmax(0,1fr)_auto]">
+        <div className="flex items-center justify-between px-4 pt-4 md:px-6 md:pt-5">
+          <p className="type-eyebrow text-gold-300">
+            {index + 1} / {items.length}
+          </p>
+          <button
+            type="button"
+            className={controlClass}
+            onClick={(event) => {
+              event.stopPropagation();
+              onClose();
+            }}
+            aria-label={t("gallery.close")}
+          >
+            <X className="h-5 w-5" />
+          </button>
         </div>
-        <figcaption className="mt-4 text-center">
+
+        <div className="relative min-h-0">
+          <button
+            type="button"
+            className={cn(controlClass, "absolute left-3 top-1/2 z-20 -translate-y-1/2 md:left-6")}
+            onClick={(event) => {
+              event.stopPropagation();
+              onPrev();
+            }}
+            aria-label={t("gallery.prev")}
+          >
+            <ChevronLeft className="h-5 w-5" />
+          </button>
+          <button
+            type="button"
+            className={cn(controlClass, "absolute right-3 top-1/2 z-20 -translate-y-1/2 md:right-6")}
+            onClick={(event) => {
+              event.stopPropagation();
+              onNext();
+            }}
+            aria-label={t("gallery.next")}
+          >
+            <ChevronRight className="h-5 w-5" />
+          </button>
+          <div
+            className="pointer-events-auto absolute inset-y-2 left-16 right-16 sm:inset-y-4 sm:left-24 sm:right-24"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="relative h-full w-full">
+              <img
+                key={current.id}
+                src={current.src}
+                alt={current.alt[locale]}
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+
+        <figcaption
+          className="pointer-events-auto px-6 pb-6 pt-3 text-center md:pb-8"
+          onClick={(event) => event.stopPropagation()}
+        >
           <p className="type-title text-ivory">
             <L text={current.title} />
           </p>
-          <p className="mt-1 type-eyebrow text-gold-300">
-            {index + 1} / {items.length}
-          </p>
         </figcaption>
-      </figure>
+      </div>
     </div>
   );
 }
