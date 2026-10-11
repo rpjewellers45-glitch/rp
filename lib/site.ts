@@ -1,1 +1,15 @@
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const configured = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+/** Canonical origin. Set NEXT_PUBLIC_SITE_URL to the live https domain before deploy. */
+export const siteUrl = configured.replace(/\/$/, "");
+
+export function absoluteUrl(path = "/") {
+  if (!path || path === "/") return siteUrl;
+  return `${siteUrl}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+if (process.env.NODE_ENV === "production" && siteUrl.includes("localhost")) {
+  console.warn(
+    "NEXT_PUBLIC_SITE_URL is unset, so canonical links, the sitemap, and structured data still point at localhost.",
+  );
+}

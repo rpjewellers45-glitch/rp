@@ -63,10 +63,10 @@ export const metadata: Metadata = {
     "wedding jewellery",
     "Dalsinghsarai",
     "wedding jewellery in Dalsinghsarai",
-    "gold jewellery Bihar",
+    "gold jewellery Dalsinghsarai",
     "HUID hallmark jewellery",
-    "CB payel",
-    "bridal jewellery Samastipur region",
+    "bridal jewellery",
+    "traditional jewellery",
     "hallmark gold",
     "bridal set",
   ],
@@ -76,13 +76,12 @@ export const metadata: Metadata = {
     locale: "en_IN",
     type: "website",
     siteName: shop.name,
-    images: [{ url: "/images/logo.png", alt: "R.P Jewellers & Sons logo" }],
+    url: siteUrl,
   },
   twitter: {
     card: "summary_large_image",
     title: "R.P Jewellers & Sons",
     description: shop.description,
-    images: ["/images/logo.png"],
   },
 };
 

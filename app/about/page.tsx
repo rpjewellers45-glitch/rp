@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { AboutSection } from "@/components/sections/AboutSection";
+import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { ClosingCta, PageBanner } from "@/components/sections/PageBanner";
 import { timeline, values } from "@/data/about";
 import { aboutPromises } from "@/data/copy";
@@ -10,16 +11,37 @@ import { FadeIn } from "@/components/ui/Reveal";
 import { EnquiryButton } from "@/components/ui/EnquiryButton";
 import { GoldButton } from "@/components/ui/GoldButton";
 
+const aboutDescription =
+  "R.P Jewellers & Sons is a wedding jewellery shop in Main Bazar, Dalsinghsarai, open since 1998 and led by proprietor Ashish Kumar (Gopu Ji).";
+
 export const metadata: Metadata = {
-  title: "Our Story",
-  description:
-    "The story of R.P Jewellers & Sons, a wedding jewellery shop in Dalsinghsarai since 1998, led by proprietor Ashish Kumar (Gopu Ji).",
+  title: "About the Shop",
+  description: aboutDescription,
   alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About the Shop | R.P Jewellers & Sons",
+    description: aboutDescription,
+    url: "/about",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "R.P Jewellers & Sons, wedding jewellery in Dalsinghsarai since 1998",
+      },
+    ],
+  },
 };
 
 export default function AboutPage() {
   return (
     <main id="main">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "About the Shop", path: "/about" },
+        ]}
+      />
       <PageBanner
         crumb=""
         eyebrow=""

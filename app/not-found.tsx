@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import { LocaleText } from "@/components/i18n/LocaleText";
 import { GoldButton } from "@/components/ui/GoldButton";
+
+export const metadata: Metadata = {
+  title: "Page not found",
+};
 
 export default function NotFound() {
   return (

@@ -55,7 +55,7 @@ export function Gallery() {
                 onClick={() => setIndex(itemIndex)}
               >
                 <span className={cn("relative block w-full", ratioClass[item.ratio])}>
-                  <SafeImage src={item.src} alt="" sizes="(max-width: 640px) 100vw, 33vw" className="zoom-img object-cover" />
+                  <SafeImage src={item.src} alt={item.alt[locale]} sizes="(max-width: 640px) 100vw, 33vw" className="zoom-img object-cover" />
                   <CornerBrackets />
                 </span>
                 <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-maroon-900/85 to-transparent px-4 pb-4 pt-12">

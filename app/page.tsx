@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import type { Metadata } from "next";
 import { FeaturedCollections } from "@/components/sections/FeaturedCollections";
+import { shop } from "@/data/shop";
 import { Hero } from "@/components/sections/Hero";
 import { TrustStrip } from "@/components/sections/TrustStrip";
 
@@ -16,9 +17,16 @@ const VisitUs = dynamic(() => import("@/components/sections/VisitUs").then((mod)
 const Contact = dynamic(() => import("@/components/sections/Contact").then((mod) => mod.Contact));
 
 export const metadata: Metadata = {
+  title: {
+    absolute: "R.P Jewellers & Sons | Wedding Jewellery in Dalsinghsarai",
+  },
+  description: shop.description,
   alternates: { canonical: "/" },
-  description:
-    "Wedding jewellery in Dalsinghsarai since 1998. Hallmarked 916 and 750 HUID gold, bridal sets, CB payel, and a 7.9% making charge for families in the Samastipur region.",
+  openGraph: {
+    title: "R.P Jewellers & Sons | Wedding Jewellery in Dalsinghsarai",
+    description: shop.description,
+    url: "/",
+  },
 };
 
 export default function HomePage() {

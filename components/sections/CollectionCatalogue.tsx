@@ -28,9 +28,6 @@ export function CollectionCatalogue({ initialCategory = "All" }: { initialCatego
   return (
     <section className="bg-ivory pb-24 pt-8 md:pb-32" aria-labelledby="catalogue-heading">
       <Container>
-        <h2 id="catalogue-heading" className="sr-only">
-          <LocaleText k="products.title" />
-        </h2>
         <div role="toolbar" aria-label={t("cat.filter")} className="flex flex-wrap justify-center gap-2">
           {productCategories.map((group) => (
             <button
