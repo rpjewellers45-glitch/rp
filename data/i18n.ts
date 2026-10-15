@@ -4,6 +4,7 @@ export type Locale = (typeof locales)[number];
 export const dictionary = {
   en: {
     "nav.home": "Home",
+    "nav.rpjewels": "R.P Jewels",
     "nav.wedding": "Wedding",
     "nav.collections": "Collections",
     "nav.products": "Products",
@@ -178,6 +179,7 @@ export const dictionary = {
   },
   hi: {
     "nav.home": "होम",
+    "nav.rpjewels": "आर.पी. ज्वेल्स",
     "nav.wedding": "शादी",
     "nav.collections": "कलेक्शन",
     "nav.products": "गहने",

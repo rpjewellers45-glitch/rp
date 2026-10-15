@@ -1,8 +1,16 @@
 import type { MessageKey } from "@/data/i18n";
 
-export const navLinks: Array<{ href: string; key: MessageKey }> = [
+export type NavLink = { href: string; key: MessageKey };
+export type NavGroup = { key: MessageKey; children: NavLink[] };
+export type NavEntry = NavLink | NavGroup;
+
+export function isNavGroup(item: NavEntry): item is NavGroup {
+  return "children" in item;
+}
+
+export const navLinks: NavEntry[] = [
   { href: "/#home", key: "nav.home" },
-  { href: "/wedding", key: "nav.wedding" },
+  { key: "nav.rpjewels", children: [{ href: "/wedding", key: "nav.wedding" }] },
   { href: "/collections", key: "nav.products" },
   { href: "/#guide", key: "nav.guide" },
   { href: "/about", key: "nav.about" },
