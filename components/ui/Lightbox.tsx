@@ -8,7 +8,7 @@ import { useI18n } from "@/components/i18n/LanguageProvider";
 import { cn } from "@/lib/utils";
 
 const controlClass =
-  "pointer-events-auto flex h-11 w-11 items-center justify-center border border-gold-400 bg-maroon-900 text-gold-200 shadow-[0_10px_28px_rgba(0,0,0,0.45)] transition-[color,background-color,border-color] duration-300 hover:border-gold-300 hover:bg-gold-400 hover:text-maroon-900 md:h-12 md:w-12";
+  "pointer-events-auto flex h-11 w-11 shrink-0 items-center justify-center border border-gold-400 bg-maroon-900 text-gold-300 shadow-[0_10px_28px_rgba(0,0,0,0.45)] transition-[color,background-color,border-color] duration-300 hover:border-gold-300 hover:bg-gold-400 hover:text-maroon-900 md:h-12 md:w-12";
 
 export function Lightbox({
   items,
@@ -92,7 +92,7 @@ export function Lightbox({
             }}
             aria-label={t("gallery.close")}
           >
-            <X className="h-5 w-5" />
+            <X className="h-5 w-5 shrink-0" strokeWidth={2} aria-hidden />
           </button>
         </div>
 
@@ -106,7 +106,7 @@ export function Lightbox({
             }}
             aria-label={t("gallery.prev")}
           >
-            <ChevronLeft className="h-5 w-5" />
+            <ChevronLeft className="h-5 w-5 shrink-0" strokeWidth={2} aria-hidden />
           </button>
           <button
             type="button"
@@ -117,7 +117,7 @@ export function Lightbox({
             }}
             aria-label={t("gallery.next")}
           >
-            <ChevronRight className="h-5 w-5" />
+            <ChevronRight className="h-5 w-5 shrink-0" strokeWidth={2} aria-hidden />
           </button>
           <div
             className="pointer-events-auto absolute inset-y-2 left-16 right-16 sm:inset-y-4 sm:left-24 sm:right-24"

@@ -23,8 +23,8 @@ export function Hero() {
         <div
           className={
             reduce
-              ? "relative aspect-video w-full overflow-hidden bg-maroon-900 md:aspect-auto md:h-[48vw] md:min-h-[220px] md:max-h-[520px]"
-              : "sticky top-[4.75rem] z-0 aspect-video w-full overflow-hidden bg-maroon-900 md:top-[5.25rem] md:aspect-auto md:h-[48vw] md:min-h-[220px] md:max-h-[520px]"
+              ? "relative aspect-[3/4] max-h-[62vh] w-full overflow-hidden bg-maroon-900 md:aspect-auto md:h-[48vw] md:max-h-[520px] md:min-h-[220px]"
+              : "sticky top-[4.75rem] z-0 aspect-[3/4] max-h-[62vh] w-full overflow-hidden bg-maroon-900 md:top-[5.25rem] md:aspect-auto md:h-[48vw] md:max-h-[520px] md:min-h-[220px]"
           }
         >
           <motion.div
@@ -41,23 +41,38 @@ export function Hero() {
               animate={{ scale: 1 }}
               transition={{ duration: 9, ease: [0.22, 1, 0.36, 1] }}
             >
-              <SafeImage
-                src="/images/hero-shop-banner.jpg"
-                alt={t("hero.photo")}
-                sizes="100vw"
-                priority
-                className="object-cover object-center"
-              />
+              <div className="absolute inset-0 md:hidden">
+                <SafeImage
+                  src="/images/hero-mobile.jpg"
+                  alt={t("hero.photo")}
+                  sizes="100vw"
+                  priority
+                  className="object-cover object-[center_38%]"
+                />
+              </div>
+              <div className="absolute inset-0 hidden md:block">
+                <SafeImage
+                  src="/images/hero-shop-banner.jpg"
+                  alt={t("hero.photo")}
+                  sizes="100vw"
+                  priority
+                  className="object-cover object-center"
+                />
+              </div>
             </motion.div>
           </motion.div>
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-b from-transparent to-ivory sm:h-36"
+            className="pointer-events-none absolute inset-3 border border-gold-300/35 md:hidden"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-ivory md:h-36"
           />
         </div>
 
       <div className="relative z-10 bg-ivory">
-      <div className="mx-auto flex max-w-3xl flex-col items-center px-6 pb-24 pt-6 text-center md:pb-32 md:pt-8">
+      <div className="mx-auto flex max-w-3xl flex-col items-center px-6 pb-16 pt-5 text-center md:pb-32 md:pt-8">
         <motion.p
           className="type-kicker text-maroon-800"
           initial={reduce ? false : { opacity: 0, y: 8 }}
