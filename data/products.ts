@@ -1,18 +1,26 @@
 import { c, type Copy } from "@/lib/copy";
+import { catalogBatch } from "@/data/products-catalog-batch";
 
 export const productCategories = [
   "All",
-  "Bridal",
-  "Diamond",
-  "Gems",
-  "Earrings",
-  "Necklaces",
-  "Bangles",
-  "Rings",
+  "Antique haar",
+  "Brijbali",
+  "Chain",
+  "Earring",
+  "Bracelet",
+  "Gents ring",
+  "Jhumka",
+  "Ladies ring",
+  "Mangalsutra set",
+  "Mangalsutra",
+  "Pola",
+  "Small earring",
+  "Maang tikka",
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number];
-export type ProductGroup = Exclude<ProductCategory, "All">;
+export type LegacyCategory = "Bridal" | "Diamond" | "Gems" | "Earrings" | "Necklaces" | "Bangles" | "Rings";
+export type ProductGroup = Exclude<ProductCategory, "All"> | LegacyCategory;
 
 export type Product = {
   id: string;
@@ -29,6 +37,7 @@ export type Product = {
  * Weights and stone types change at the counter — the copy does not quote a rate or a gram weight.
  */
 export const products: Product[] = [
+  ...(catalogBatch as Product[]),
   {
     id: "crescent-bridal-set",
     name: c("Crescent bridal set", "चाँद वाला दुल्हन सेट"),

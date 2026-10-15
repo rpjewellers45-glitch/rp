@@ -54,6 +54,12 @@ Full-size source folders under `assets/` stay on your machine (gitignored). Afte
 
 ```bash
 node scripts/prepare-wedding.cjs
+
+After new product folders land in `assets/`, regenerate web copies and `data/products-catalog-batch.ts`:
+
+```bash
+node scripts/prepare-products-batch.cjs
+```
 ```
 
 Then commit the updated `public/images/wedding/` and `data/wedding.ts`.
