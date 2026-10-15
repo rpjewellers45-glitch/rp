@@ -44,9 +44,9 @@ export const dictionary = {
     "offer.title": "Wedding jewellery at 7.9% making charge",
     "offer.text":
       "On wedding jewellery the making charge is 7.9 percent. Gold rate and weight are counted separately. Terms apply — the shop explains them for the piece you are holding.",
-    "gold.label": "Gold and silver, in rupees",
+    "gold.label": "Today's gold rate",
     "gold.body":
-      "World spot price converted to rupees. It does not include GST, making charges, or the local premium. The bill rate is the one the shop tells you.",
+      "22K, 18K and 24K for 10 grams, checked against the rate Tanishq has published. Making charges and GST are separate. The bill rate is the one the shop tells you.",
     "gold.action": "Ask the shop for the bill rate",
     "gold.silver": "Silver",
     "gold.updated": "Updated",
@@ -128,7 +128,7 @@ export const dictionary = {
     "footer.visit": "Visit",
     "footer.contact": "Contact",
     "guide.carry": "What to carry into the shop",
-    "rates.eyebrow": "India",
+    "rates.eyebrow": "Today",
     "missing.title": "This page is not in the collection",
     "missing.body": "The link may have changed. The shop is still at Main Bazar, Dalsinghsarai.",
     "missing.home": "Back to home",
@@ -194,9 +194,9 @@ export const dictionary = {
     "offer.title": "शादी के गहनों पर 7.9% मजदूरी",
     "offer.text":
       "शादी के गहनों पर बनने की मजदूरी 7.9 प्रतिशत है। सोने का भाव और वज़न अलग गिने जाते हैं। जो गहना आप हाथ में लेंगे, उसकी बात दुकान पर समझा दी जाएगी।",
-    "gold.label": "सोने और चाँदी का भाव",
+    "gold.label": "आज का सोने का भाव",
     "gold.body":
-      "यह दुनिया के बाज़ार का भाव है, रुपये में। इसमें जीएसटी, मजदूरी और स्थानीय फ़र्क नहीं है। बिल पर जो भाव लगेगा, वह दुकान बताएगी।",
+      "22K, 18K और 24K का भाव, 10 ग्राम का, तनिष्क के छपे हुए भाव से मिलाकर। मजदूरी और जीएसटी अलग हैं। बिल पर जो भाव लगेगा, वह दुकान बताएगी।",
     "gold.action": "बिल वाला भाव पूछें",
     "gold.silver": "चाँदी",
     "gold.updated": "भाव का समय",
@@ -278,7 +278,7 @@ export const dictionary = {
     "footer.visit": "दुकान",
     "footer.contact": "संपर्क",
     "guide.carry": "दुकान आते समय याद रखें",
-    "rates.eyebrow": "भारत",
+    "rates.eyebrow": "आज",
     "missing.title": "यह पन्ना नहीं मिला",
     "missing.body": "लिंक बदल गया होगा। दुकान अब भी मेन बाज़ार, दलसिंहसराय में है।",
     "missing.home": "वापस होम",

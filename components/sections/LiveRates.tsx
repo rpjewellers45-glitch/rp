@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import type { BullionQuote } from "@/lib/bullion";
 import { LocaleText } from "@/components/i18n/LocaleText";
 import { useI18n } from "@/components/i18n/LanguageProvider";
@@ -21,19 +21,16 @@ function formatWhen(iso: string, locale: "en" | "hi") {
   if (Number.isNaN(date.getTime())) return iso;
   return new Intl.DateTimeFormat(locale === "hi" ? "hi-IN" : "en-IN", {
     dateStyle: "medium",
-    timeStyle: "short",
     timeZone: "Asia/Kolkata",
   }).format(date);
 }
 
 export function LiveRates() {
   const { locale, t } = useI18n();
-  const sectionRef = useRef<HTMLElement>(null);
   const [quote, setQuote] = useState<BullionQuote | null>(null);
   const [failed, setFailed] = useState(false);
 
   useEffect(() => {
-    const node = sectionRef.current;
     let ignore = false;
     let timer = 0;
 
@@ -56,42 +53,23 @@ export function LiveRates() {
       timer = window.setInterval(load, 10 * 60 * 1000);
     };
 
-    if (!node || typeof IntersectionObserver === "undefined") {
-      start();
-      return () => {
-        ignore = true;
-        window.clearInterval(timer);
-      };
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry?.isIntersecting) return;
-        observer.disconnect();
-        start();
-      },
-      { rootMargin: "400px 0px" },
-    );
-    observer.observe(node);
-
+    start();
     return () => {
       ignore = true;
-      observer.disconnect();
       window.clearInterval(timer);
     };
   }, []);
 
   const cards = quote
     ? [
-        { label: "24K", unit: t("gold.per10"), value: quote.gold24kPer10g },
         { label: "22K · 916", unit: t("gold.per10"), value: quote.gold22kPer10g },
         { label: "18K · 750", unit: t("gold.per10"), value: quote.gold18kPer10g },
-        { label: t("gold.silver"), unit: t("gold.perKg"), value: quote.silverPerKg },
+        { label: "24K", unit: t("gold.per10"), value: quote.gold24kPer10g },
       ]
     : [];
 
   return (
-    <section ref={sectionRef} id="rates" aria-labelledby="rates-heading" className="bg-ivory py-24 text-maroon-900 md:py-32">
+    <section id="rates" aria-labelledby="rates-heading" className="bg-ivory pb-16 pt-8 text-maroon-900 md:pb-24 md:pt-10">
       <Container>
         <FadeIn>
         <SectionHeading
@@ -106,8 +84,8 @@ export function LiveRates() {
             {t("gold.unavailable")}
           </p>
         ) : (
-          <ul className="mt-12 grid grid-cols-2 gap-4 lg:grid-cols-4">
-            {(cards.length ? cards : [0, 1, 2, 3]).map((card, index) => (
+          <ul className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
+            {(cards.length ? cards : [0, 1, 2]).map((card, index) => (
               <li key={typeof card === "number" ? card : card.label}>
                 <FadeIn delay={index * 0.08} className="h-full border border-gold-500/40 bg-cream/60 px-4 py-6 text-center">
                 {typeof card === "number" ? (
@@ -121,7 +99,6 @@ export function LiveRates() {
                     <p className="mt-2 type-eyebrow text-gold-600">{card.unit}</p>
                   </>
                 )}
-                <span className="sr-only">{index}</span>
                 </FadeIn>
               </li>
             ))}
@@ -129,7 +106,7 @@ export function LiveRates() {
         )}
         {quote ? (
           <p className="mt-6 text-center text-sm text-maroon-700">
-            {t("gold.updated")} {formatWhen(quote.goldUpdatedAt, locale)} · $1 = ₹{quote.usdInr.toFixed(2)}
+            {t("gold.updated")} {formatWhen(quote.goldUpdatedAt, locale)}
           </p>
         ) : null}
         <div className="mt-8 text-center">

@@ -52,6 +52,6 @@ Phone screenshots and extra angles of the same ring were not published. The orig
 
 ## Gold and silver rates
 
-The home page reads a cached rate from `/api/rates`. The site asks the free gold and silver feeds, and the free dollar-to-rupee feed, about once every 10 minutes. Every visitor then sees that same saved figure, so a busy day does not call the source once per person.
+The home page reads a cached rate from `/api/rates`. About once every 10 minutes the site reads Tanishq’s published 22K rate and the 18K, 22K and 24K board on Mia by Tanishq. A figure is shown only when those two pages agree. Every visitor then sees that same saved figure.
 
-Do not type a rupee amount into the code. The number on the page is the world spot price in rupees. It is not the shop’s bill, and it does not include making charges.
+Do not type a rupee amount into the code. The number is the published retail gold rate for 10 grams. It is not the shop’s bill, and it does not include making charges or GST.

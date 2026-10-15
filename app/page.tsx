@@ -33,11 +33,11 @@ export default function HomePage() {
   return (
     <main id="main">
       <Hero />
+      <LiveRates />
       <TrustStrip />
       <FeaturedCollections />
       <WhyUs />
       <OfferBanner />
-      <LiveRates />
       <BridalGuide />
       <AboutSection />
       <Gallery />

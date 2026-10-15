@@ -27,10 +27,10 @@ export const features: Feature[] = [
   },
   {
     icon: "wedding",
-    title: c("Wedding jewellery only", "सिर्फ़ शादी के गहने"),
+    title: c("Wedding jewellery", "शादी के गहने"),
     text: c(
-      "Bridal sets, payal, and the ornaments of the ceremony. This shop is built around the wedding.",
-      "दुल्हन का सेट, पायल, और रस्म के गहने। दुकान इसी काम के लिए है।",
+      "Bridal sets, payal, and the ornaments of the ceremony.",
+      "दुल्हन का सेट, पायल, और रस्म के गहने।",
     ),
   },
   {
