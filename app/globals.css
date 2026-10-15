@@ -487,12 +487,40 @@ html {
   .preloader {
     display: none !important;
   }
+
+  .route-loader {
+    animation: none;
+  }
 }
 
 @media (scripting: none) {
   [data-reveal] {
     opacity: 1 !important;
     transform: none !important;
+  }
+}
+
+.route-loader {
+  width: 3.25rem;
+  height: 3.25rem;
+  border: 2px solid rgba(201, 162, 75, 0.35);
+  border-top-color: #3e0a12;
+  border-right-color: #d4af37;
+  border-radius: 999px;
+  animation: route-spin 0.8s linear infinite;
+}
+
+.route-loader::after {
+  content: "";
+  position: absolute;
+  inset: 0.7rem;
+  border: 1px solid rgba(62, 10, 18, 0.25);
+  border-radius: 999px;
+}
+
+@keyframes route-spin {
+  to {
+    transform: rotate(360deg);
   }
 }
 

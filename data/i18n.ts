@@ -26,6 +26,7 @@ export const dictionary = {
     "hero.primary": "Explore Collections",
     "hero.secondary": "Visit Our Store",
     "hero.scroll": "Scroll",
+    "loading.page": "Loading page",
     "products.eyebrow": "The counter",
     "products.title": "Pieces in the shop",
     "products.description":
@@ -199,6 +200,7 @@ export const dictionary = {
     "hero.primary": "गहने देखें",
     "hero.secondary": "दुकान का पता",
     "hero.scroll": "नीचे जाएँ",
+    "loading.page": "पन्ना खुल रहा है",
     "products.eyebrow": "दुकान में",
     "products.title": "जो गहने अभी हैं",
     "products.description":

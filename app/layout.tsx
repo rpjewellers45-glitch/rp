@@ -8,6 +8,7 @@ import { FloatingActions } from "@/components/sections/FloatingActions";
 import { Navbar } from "@/components/sections/Navbar";
 import { Preloader } from "@/components/sections/Preloader";
 import { RouteShine } from "@/components/ui/RouteShine";
+import { RouteLoader } from "@/components/ui/RouteLoader";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { shop } from "@/data/shop";
 import { siteUrl } from "@/lib/site";
@@ -94,6 +95,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <LocaleText k="skip" />
           </a>
           <RouteShine />
+          <RouteLoader />
           <Preloader />
           <Navbar />
           {children}
