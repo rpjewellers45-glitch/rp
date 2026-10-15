@@ -6,3 +6,8 @@ out
 _previews
 tsconfig.tsbuildinfo
 .env*.local
+
+# Wedding catalogue originals — web copies in public/images/wedding/ are what GitHub deploy serves
+/assets/chokar_and_harr_pages/
+/assets/churi_pages/
+/assets/long harr/

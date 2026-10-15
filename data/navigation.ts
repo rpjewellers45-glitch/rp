@@ -2,6 +2,7 @@ import type { MessageKey } from "@/data/i18n";
 
 export const navLinks: Array<{ href: string; key: MessageKey }> = [
   { href: "/#home", key: "nav.home" },
+  { href: "/wedding", key: "nav.wedding" },
   { href: "/collections", key: "nav.products" },
   { href: "/#collections", key: "nav.collections" },
   { href: "/#guide", key: "nav.guide" },
@@ -11,6 +12,7 @@ export const navLinks: Array<{ href: string; key: MessageKey }> = [
 ];
 
 export const footerExplore: Array<{ href: string; key: MessageKey }> = [
+  { href: "/wedding", key: "nav.wedding" },
   { href: "/collections", key: "nav.products" },
   { href: "/#collections", key: "nav.collections" },
   { href: "/#guide", key: "nav.guide" },

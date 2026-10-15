@@ -1,6 +1,10 @@
-const configured = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const productionOrigin = "https://www.rpjewelleries.in";
 
-/** Canonical origin. Set NEXT_PUBLIC_SITE_URL to the live https domain before deploy. */
+const configured =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.NODE_ENV === "production" ? productionOrigin : "http://localhost:3000");
+
+/** Canonical origin for [rpjewelleries.in](https://www.rpjewelleries.in/). Override with NEXT_PUBLIC_SITE_URL if needed. */
 export const siteUrl = configured.replace(/\/$/, "");
 
 export function absoluteUrl(path = "/") {
