@@ -23,8 +23,14 @@ export function JsonLd() {
         description: shop.description,
         telephone: shop.phoneHref.replace("tel:", ""),
         email: shop.email,
+        sameAs: [shop.instagramHref],
         foundingDate: String(shop.since),
         hasMap: mapsSearchUrl(),
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: shop.geo.latitude,
+          longitude: shop.geo.longitude,
+        },
         address: {
           "@type": "PostalAddress",
           streetAddress: `${shop.address.line1.en}, ${shop.address.line2.en}`,

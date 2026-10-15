@@ -5,9 +5,11 @@ export function whatsappUrl(message: string = shop.whatsappMessage) {
 }
 
 export function mapsSearchUrl() {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(shop.address.full)}`;
+  const { latitude, longitude } = shop.geo;
+  return `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
 }
 
 export function mapsEmbedUrl() {
-  return `https://maps.google.com/maps?q=${encodeURIComponent(shop.address.full)}&hl=en&z=16&output=embed`;
+  const { latitude, longitude } = shop.geo;
+  return `https://maps.google.com/maps?q=${latitude},${longitude}&hl=en&z=17&output=embed`;
 }

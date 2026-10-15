@@ -41,6 +41,14 @@ export const shop = {
     "नमस्ते, आर.पी. ज्वैलर्स एंड संस, दलसिंहसराय से शादी के गहनों के बारे में बात करनी है।",
   email: "ashishdss53@gmail.com",
   emailHref: "mailto:ashishdss53@gmail.com",
+  instagram: "@r.pjewellersdss",
+  instagramHref: "https://www.instagram.com/r.pjewellersdss/",
+  geo: {
+    latitude: 25.6669731,
+    longitude: 85.8354187,
+  },
+  plusCode: "MR8P+Q5M",
+  mapArea: c("Loknathpur, Dalsinghsarai", "लोकनाथपुर, दलसिंहसराय"),
   address: {
     line1: c("Sonna Patti, Mangle Sah Chowk", "सोना पट्टी, मंगले साह चौक"),
     line2: c("near Masjid Gali, Main Bazar", "मस्जिद गली के पास, मेन बाज़ार"),

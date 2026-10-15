@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, Instagram } from "lucide-react";
 import { shop } from "@/data/shop";
 import { L, LocaleText } from "@/components/i18n/LocaleText";
 import { useI18n } from "@/components/i18n/LanguageProvider";
@@ -47,6 +47,17 @@ export function Contact() {
                   <LocaleText k="contact.email" />
                 </span>
                 <span className="mt-1 block break-all text-lg text-ivory group-hover:text-gold-300">{shop.email}</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href={shop.instagramHref} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-3">
+              <Instagram className="mt-1 h-4 w-4 text-gold-300" aria-hidden="true" />
+              <span>
+                <span className="block type-eyebrow text-gold-300">
+                  <LocaleText k="contact.instagram" />
+                </span>
+                <span className="mt-1 block text-lg text-ivory group-hover:text-gold-300">{shop.instagram}</span>
               </span>
             </a>
           </li>

@@ -40,6 +40,8 @@ export function VisitUs() {
                 <L text={shop.address.line2} />
                 <br />
                 <L text={shop.address.city} />, <L text={shop.address.state} />
+                <br />
+                {shop.plusCode}, <L text={shop.mapArea} />
               </span>
             </p>
             <div className="mt-6 border-t border-gold-500/30 pt-6">

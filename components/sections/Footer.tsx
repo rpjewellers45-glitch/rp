@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Instagram } from "lucide-react";
 import { footerExplore } from "@/data/navigation";
 import { shop } from "@/data/shop";
 import { L, LocaleText } from "@/components/i18n/LocaleText";
@@ -58,6 +59,17 @@ export function Footer() {
             <li>
               <a href={shop.emailHref} className="break-all hover:text-gold-300">
                 {shop.email}
+              </a>
+            </li>
+            <li>
+              <a
+                href={shop.instagramHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-gold-300"
+              >
+                <Instagram className="h-4 w-4 text-gold-300" aria-hidden="true" />
+                {shop.instagram}
               </a>
             </li>
             <li>
