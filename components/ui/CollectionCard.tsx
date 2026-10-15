@@ -10,18 +10,17 @@ import { CornerBrackets } from "@/components/ui/CornerBrackets";
 import { SafeImage } from "@/components/ui/SafeImage";
 import { ArrowUpRight } from "lucide-react";
 
-const categoryFor = (slug: string) => {
+const hrefFor = (slug: string) => {
   const map: Record<string, string> = {
-    "bridal-sets": "Bridal",
-    "wedding-gold": "Bridal",
-    gems: "Gems",
-    diamond: "Diamond",
-    necklaces: "Necklaces",
-    jhumka: "Earrings",
-    bangles: "Bangles",
-    rings: "Rings",
+    "bridal-sets": "/collections?category=Antique%20haar",
+    "wedding-gold": "/wedding",
+    necklaces: "/wedding",
+    jhumka: "/collections?category=Jhumka",
+    bangles: "/wedding",
+    "maang-tikka": "/collections?category=Maang%20tikka",
+    rings: "/collections?category=Ladies%20ring",
   };
-  return map[slug] ?? "All";
+  return map[slug] ?? "/collections";
 };
 
 const groupKey: Record<CollectionGroup, MessageKey> = {
@@ -35,18 +34,14 @@ export function CollectionCard({ collection, linked = true }: { collection: Coll
   const { locale, t } = useI18n();
   const media = (
     <div className="border border-gold-500/45 p-1.5 transition-colors duration-300 group-hover:border-gold-500">
-      <div className="relative aspect-[4/5] overflow-hidden bg-maroon-900">
+      <div className="relative aspect-[4/5] overflow-hidden bg-cream">
           <SafeImage
             src={collection.image}
             alt={collection.imageAlt[locale]}
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="zoom-img object-cover"
+            className="zoom-img object-contain"
           />
           <CornerBrackets />
-          <span
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_42%,rgba(42,7,12,0.4)_100%)]"
-          />
         <span
           aria-hidden="true"
           className="sweep pointer-events-none absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-transparent via-white/30 to-transparent"
@@ -87,7 +82,7 @@ export function CollectionCard({ collection, linked = true }: { collection: Coll
   }
 
   return (
-    <Link href={`/collections?category=${categoryFor(collection.slug)}`} className="lift group block h-full">
+    <Link href={hrefFor(collection.slug)} className="lift group block h-full">
       {media}
       {copy}
     </Link>
