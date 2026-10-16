@@ -5,7 +5,7 @@ import type { ProductGroup } from "@/data/products";
 export const catalogBatch = [
   {
     id: "antique-haar-001",
-    name: c("Antique haar 1", "पुरानी शैली का हार 1"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -16,7 +16,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-002",
-    name: c("Antique haar 2", "पुरानी शैली का हार 2"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -27,7 +27,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-003",
-    name: c("Antique haar 3", "पुरानी शैली का हार 3"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -38,7 +38,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-004",
-    name: c("Antique haar 4", "पुरानी शैली का हार 4"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -49,7 +49,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-005",
-    name: c("Antique haar 5", "पुरानी शैली का हार 5"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -60,7 +60,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-006",
-    name: c("Antique haar 6", "पुरानी शैली का हार 6"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -71,7 +71,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-007",
-    name: c("Antique haar 7", "पुरानी शैली का हार 7"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -82,7 +82,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-008",
-    name: c("Antique haar 8", "पुरानी शैली का हार 8"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -93,7 +93,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-009",
-    name: c("Antique haar 9", "पुरानी शैली का हार 9"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -104,7 +104,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-010",
-    name: c("Antique haar 10", "पुरानी शैली का हार 10"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -115,7 +115,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-011",
-    name: c("Antique haar 11", "पुरानी शैली का हार 11"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -126,7 +126,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-012",
-    name: c("Antique haar 12", "पुरानी शैली का हार 12"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -137,7 +137,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-013",
-    name: c("Antique haar 13", "पुरानी शैली का हार 13"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -148,7 +148,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-014",
-    name: c("Antique haar 14", "पुरानी शैली का हार 14"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -159,7 +159,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-015",
-    name: c("Antique haar 15", "पुरानी शैली का हार 15"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -170,7 +170,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-016",
-    name: c("Antique haar 16", "पुरानी शैली का हार 16"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -181,7 +181,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-017",
-    name: c("Antique haar 17", "पुरानी शैली का हार 17"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -192,7 +192,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-018",
-    name: c("Antique haar 18", "पुरानी शैली का हार 18"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -203,7 +203,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-019",
-    name: c("Antique haar 19", "पुरानी शैली का हार 19"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -214,7 +214,7 @@ export const catalogBatch = [
   },
   {
     id: "antique-haar-020",
-    name: c("Antique haar 20", "पुरानी शैली का हार 20"),
+    name: c("Antique haar", "पुरानी शैली का हार"),
     category: "Antique haar" as ProductGroup,
     description: c(
       "Antique-style gold haar from the shop’s wedding collection in Dalsinghsarai.",
@@ -225,10 +225,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-001",
-    name: c("Brijbali 1", "ब्रिजबाली 1"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/001.jpg",
@@ -236,10 +236,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-002",
-    name: c("Brijbali 2", "ब्रिजबाली 2"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/002.jpg",
@@ -247,10 +247,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-003",
-    name: c("Brijbali 3", "ब्रिजबाली 3"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/003.jpg",
@@ -258,10 +258,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-004",
-    name: c("Brijbali 4", "ब्रिजबाली 4"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/004.jpg",
@@ -269,10 +269,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-005",
-    name: c("Brijbali 5", "ब्रिजबाली 5"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/005.jpg",
@@ -280,10 +280,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-006",
-    name: c("Brijbali 6", "ब्रिजबाली 6"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/006.jpg",
@@ -291,10 +291,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-007",
-    name: c("Brijbali 7", "ब्रिजबाली 7"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/007.jpg",
@@ -302,10 +302,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-008",
-    name: c("Brijbali 8", "ब्रिजबाली 8"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/008.jpg",
@@ -313,10 +313,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-009",
-    name: c("Brijbali 9", "ब्रिजबाली 9"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/009.jpg",
@@ -324,10 +324,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-010",
-    name: c("Brijbali 10", "ब्रिजबाली 10"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/010.jpg",
@@ -335,10 +335,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-011",
-    name: c("Brijbali 11", "ब्रिजबाली 11"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/011.jpg",
@@ -346,10 +346,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-012",
-    name: c("Brijbali 12", "ब्रिजबाली 12"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/012.jpg",
@@ -357,10 +357,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-013",
-    name: c("Brijbali 13", "ब्रिजबाली 13"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/013.jpg",
@@ -368,10 +368,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-014",
-    name: c("Brijbali 14", "ब्रिजबाली 14"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/014.jpg",
@@ -379,10 +379,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-015",
-    name: c("Brijbali 15", "ब्रिजबाली 15"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/015.jpg",
@@ -390,10 +390,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-016",
-    name: c("Brijbali 16", "ब्रिजबाली 16"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/016.jpg",
@@ -401,10 +401,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-017",
-    name: c("Brijbali 17", "ब्रिजबाली 17"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/017.jpg",
@@ -412,10 +412,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-018",
-    name: c("Brijbali 18", "ब्रिजबाली 18"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/018.jpg",
@@ -423,10 +423,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-019",
-    name: c("Brijbali 19", "ब्रिजबाली 19"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/019.jpg",
@@ -434,10 +434,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-020",
-    name: c("Brijbali 20", "ब्रिजबाली 20"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/020.jpg",
@@ -445,10 +445,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-021",
-    name: c("Brijbali 21", "ब्रिजबाली 21"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/021.jpg",
@@ -456,10 +456,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-022",
-    name: c("Brijbali 22", "ब्रिजबाली 22"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/022.jpg",
@@ -467,10 +467,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-023",
-    name: c("Brijbali 23", "ब्रिजबाली 23"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/023.jpg",
@@ -478,10 +478,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-024",
-    name: c("Brijbali 24", "ब्रिजबाली 24"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/024.jpg",
@@ -489,10 +489,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-025",
-    name: c("Brijbali 25", "ब्रिजबाली 25"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/025.jpg",
@@ -500,10 +500,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-026",
-    name: c("Brijbali 26", "ब्रिजबाली 26"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/026.jpg",
@@ -511,10 +511,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-027",
-    name: c("Brijbali 27", "ब्रिजबाली 27"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/027.jpg",
@@ -522,10 +522,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-028",
-    name: c("Brijbali 28", "ब्रिजबाली 28"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/028.jpg",
@@ -533,10 +533,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-029",
-    name: c("Brijbali 29", "ब्रिजबाली 29"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/029.jpg",
@@ -544,10 +544,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-030",
-    name: c("Brijbali 30", "ब्रिजबाली 30"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/030.jpg",
@@ -555,10 +555,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-031",
-    name: c("Brijbali 31", "ब्रिजबाली 31"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/031.jpg",
@@ -566,10 +566,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-032",
-    name: c("Brijbali 32", "ब्रिजबाली 32"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/032.jpg",
@@ -577,10 +577,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-033",
-    name: c("Brijbali 33", "ब्रिजबाली 33"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/033.jpg",
@@ -588,10 +588,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-034",
-    name: c("Brijbali 34", "ब्रिजबाली 34"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/034.jpg",
@@ -599,10 +599,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-035",
-    name: c("Brijbali 35", "ब्रिजबाली 35"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/035.jpg",
@@ -610,10 +610,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-036",
-    name: c("Brijbali 36", "ब्रिजबाली 36"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/036.jpg",
@@ -621,10 +621,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-037",
-    name: c("Brijbali 37", "ब्रिजबाली 37"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/037.jpg",
@@ -632,10 +632,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-038",
-    name: c("Brijbali 38", "ब्रिजबाली 38"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/038.jpg",
@@ -643,10 +643,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-039",
-    name: c("Brijbali 39", "ब्रिजबाली 39"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/039.jpg",
@@ -654,10 +654,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-040",
-    name: c("Brijbali 40", "ब्रिजबाली 40"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/040.jpg",
@@ -665,10 +665,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-041",
-    name: c("Brijbali 41", "ब्रिजबाली 41"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/041.jpg",
@@ -676,10 +676,10 @@ export const catalogBatch = [
   },
   {
     id: "brijbali-042",
-    name: c("Brijbali 42", "ब्रिजबाली 42"),
+    name: c("Brijbali", "ब्रिजबाली"),
     category: "Brijbali" as ProductGroup,
     description: c(
-      "Gold brijbali photographed at R.P Jewellers & Sons.",
+      "Gold brijbali for the wedding, from R.P Jewellers & Sons.",
       "आर.पी. ज्वेलर्स एंड सन्स की सोने की ब्रिजबाली।",
     ),
     image: "/images/products/catalog/brijbali/042.jpg",
@@ -687,7 +687,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-001",
-    name: c("Gold chain 1", "सोने की चेन 1"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -698,7 +698,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-002",
-    name: c("Gold chain 2", "सोने की चेन 2"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -709,7 +709,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-003",
-    name: c("Gold chain 3", "सोने की चेन 3"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -720,7 +720,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-004",
-    name: c("Gold chain 4", "सोने की चेन 4"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -731,7 +731,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-005",
-    name: c("Gold chain 5", "सोने की चेन 5"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -742,7 +742,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-006",
-    name: c("Gold chain 6", "सोने की चेन 6"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -753,7 +753,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-007",
-    name: c("Gold chain 7", "सोने की चेन 7"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -764,7 +764,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-008",
-    name: c("Gold chain 8", "सोने की चेन 8"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -775,7 +775,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-009",
-    name: c("Gold chain 9", "सोने की चेन 9"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -786,7 +786,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-010",
-    name: c("Gold chain 10", "सोने की चेन 10"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -797,7 +797,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-011",
-    name: c("Gold chain 11", "सोने की चेन 11"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -808,7 +808,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-012",
-    name: c("Gold chain 12", "सोने की चेन 12"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -819,7 +819,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-013",
-    name: c("Gold chain 13", "सोने की चेन 13"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -830,7 +830,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-014",
-    name: c("Gold chain 14", "सोने की चेन 14"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -841,7 +841,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-015",
-    name: c("Gold chain 15", "सोने की चेन 15"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -852,7 +852,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-016",
-    name: c("Gold chain 16", "सोने की चेन 16"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -863,7 +863,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-017",
-    name: c("Gold chain 17", "सोने की चेन 17"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -874,7 +874,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-018",
-    name: c("Gold chain 18", "सोने की चेन 18"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -885,7 +885,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-019",
-    name: c("Gold chain 19", "सोने की चेन 19"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -896,7 +896,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-020",
-    name: c("Gold chain 20", "सोने की चेन 20"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -907,7 +907,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-021",
-    name: c("Gold chain 21", "सोने की चेन 21"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -918,7 +918,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-022",
-    name: c("Gold chain 22", "सोने की चेन 22"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -929,7 +929,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-023",
-    name: c("Gold chain 23", "सोने की चेन 23"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -940,7 +940,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-024",
-    name: c("Gold chain 24", "सोने की चेन 24"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -951,7 +951,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-025",
-    name: c("Gold chain 25", "सोने की चेन 25"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -962,7 +962,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-026",
-    name: c("Gold chain 26", "सोने की चेन 26"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -973,7 +973,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-027",
-    name: c("Gold chain 27", "सोने की चेन 27"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -984,7 +984,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-028",
-    name: c("Gold chain 28", "सोने की चेन 28"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -995,7 +995,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-029",
-    name: c("Gold chain 29", "सोने की चेन 29"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1006,7 +1006,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-030",
-    name: c("Gold chain 30", "सोने की चेन 30"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1017,7 +1017,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-031",
-    name: c("Gold chain 31", "सोने की चेन 31"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1028,7 +1028,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-032",
-    name: c("Gold chain 32", "सोने की चेन 32"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1039,7 +1039,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-033",
-    name: c("Gold chain 33", "सोने की चेन 33"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1050,7 +1050,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-034",
-    name: c("Gold chain 34", "सोने की चेन 34"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1061,7 +1061,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-035",
-    name: c("Gold chain 35", "सोने की चेन 35"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1072,7 +1072,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-036",
-    name: c("Gold chain 36", "सोने की चेन 36"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1083,7 +1083,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-037",
-    name: c("Gold chain 37", "सोने की चेन 37"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1094,7 +1094,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-038",
-    name: c("Gold chain 38", "सोने की चेन 38"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1105,7 +1105,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-039",
-    name: c("Gold chain 39", "सोने की चेन 39"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1116,7 +1116,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-040",
-    name: c("Gold chain 40", "सोने की चेन 40"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1127,7 +1127,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-041",
-    name: c("Gold chain 41", "सोने की चेन 41"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1138,7 +1138,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-042",
-    name: c("Gold chain 42", "सोने की चेन 42"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1149,7 +1149,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-043",
-    name: c("Gold chain 43", "सोने की चेन 43"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1160,7 +1160,7 @@ export const catalogBatch = [
   },
   {
     id: "chain-044",
-    name: c("Gold chain 44", "सोने की चेन 44"),
+    name: c("Gold chain", "सोने की चेन"),
     category: "Chain" as ProductGroup,
     description: c(
       "Gold chain from the shop in Main Bazar, Dalsinghsarai.",
@@ -1171,777 +1171,777 @@ export const catalogBatch = [
   },
   {
     id: "earring-001",
-    name: c("Earring 1", "झुमका 1"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/001.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-002",
-    name: c("Earring 2", "झुमका 2"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/002.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-003",
-    name: c("Earring 3", "झुमका 3"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/003.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-004",
-    name: c("Earring 4", "झुमका 4"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/004.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-005",
-    name: c("Earring 5", "झुमका 5"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/005.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-006",
-    name: c("Earring 6", "झुमका 6"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/006.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-007",
-    name: c("Earring 7", "झुमका 7"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/007.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-008",
-    name: c("Earring 8", "झुमका 8"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/008.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-009",
-    name: c("Earring 9", "झुमका 9"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/009.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-010",
-    name: c("Earring 10", "झुमका 10"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/010.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-011",
-    name: c("Earring 11", "झुमका 11"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/011.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-012",
-    name: c("Earring 12", "झुमका 12"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/012.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-013",
-    name: c("Earring 13", "झुमका 13"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/013.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-014",
-    name: c("Earring 14", "झुमका 14"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/014.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-015",
-    name: c("Earring 15", "झुमका 15"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/015.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-016",
-    name: c("Earring 16", "झुमका 16"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/016.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-017",
-    name: c("Earring 17", "झुमका 17"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/017.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-018",
-    name: c("Earring 18", "झुमका 18"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/018.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-019",
-    name: c("Earring 19", "झुमका 19"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/019.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-020",
-    name: c("Earring 20", "झुमका 20"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/020.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-021",
-    name: c("Earring 21", "झुमका 21"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/021.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-022",
-    name: c("Earring 22", "झुमका 22"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/022.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-023",
-    name: c("Earring 23", "झुमका 23"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/023.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-024",
-    name: c("Earring 24", "झुमका 24"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/024.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-025",
-    name: c("Earring 25", "झुमका 25"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/025.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-026",
-    name: c("Earring 26", "झुमका 26"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/026.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-027",
-    name: c("Earring 27", "झुमका 27"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/027.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-028",
-    name: c("Earring 28", "झुमका 28"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/028.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-029",
-    name: c("Earring 29", "झुमका 29"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/029.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-030",
-    name: c("Earring 30", "झुमका 30"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/030.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-031",
-    name: c("Earring 31", "झुमका 31"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/031.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-032",
-    name: c("Earring 32", "झुमका 32"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/032.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-033",
-    name: c("Earring 33", "झुमका 33"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/033.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-034",
-    name: c("Earring 34", "झुमका 34"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/034.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-035",
-    name: c("Earring 35", "झुमका 35"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/035.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-036",
-    name: c("Earring 36", "झुमका 36"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/036.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-037",
-    name: c("Earring 37", "झुमका 37"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/037.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-038",
-    name: c("Earring 38", "झुमका 38"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/038.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-039",
-    name: c("Earring 39", "झुमका 39"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/039.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-040",
-    name: c("Earring 40", "झुमका 40"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/040.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-041",
-    name: c("Earring 41", "झुमका 41"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/041.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-042",
-    name: c("Earring 42", "झुमका 42"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/042.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-043",
-    name: c("Earring 43", "झुमका 43"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/043.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-044",
-    name: c("Earring 44", "झुमका 44"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/044.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-045",
-    name: c("Earring 45", "झुमका 45"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/045.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-046",
-    name: c("Earring 46", "झुमका 46"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/046.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-047",
-    name: c("Earring 47", "झुमका 47"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/047.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-048",
-    name: c("Earring 48", "झुमका 48"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/048.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-049",
-    name: c("Earring 49", "झुमका 49"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/049.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-050",
-    name: c("Earring 50", "झुमका 50"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/050.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-051",
-    name: c("Earring 51", "झुमका 51"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/051.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-052",
-    name: c("Earring 52", "झुमका 52"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/052.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-053",
-    name: c("Earring 53", "झुमका 53"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/053.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-054",
-    name: c("Earring 54", "झुमका 54"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/054.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-055",
-    name: c("Earring 55", "झुमका 55"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/055.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-056",
-    name: c("Earring 56", "झुमका 56"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/056.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-057",
-    name: c("Earring 57", "झुमका 57"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/057.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-058",
-    name: c("Earring 58", "झुमका 58"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/058.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-059",
-    name: c("Earring 59", "झुमका 59"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/059.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-060",
-    name: c("Earring 60", "झुमका 60"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/060.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-061",
-    name: c("Earring 61", "झुमका 61"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/061.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-062",
-    name: c("Earring 62", "झुमका 62"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/062.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-063",
-    name: c("Earring 63", "झुमका 63"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/063.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-064",
-    name: c("Earring 64", "झुमका 64"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/064.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-065",
-    name: c("Earring 65", "झुमका 65"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/065.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-066",
-    name: c("Earring 66", "झुमका 66"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/066.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-067",
-    name: c("Earring 67", "झुमका 67"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/067.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-068",
-    name: c("Earring 68", "झुमका 68"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/068.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-069",
-    name: c("Earring 69", "झुमका 69"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/069.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "earring-070",
-    name: c("Earring 70", "झुमका 70"),
+    name: c("Earring", "झुमका"),
     category: "Earring" as ProductGroup,
     description: c(
-      "Gold earrings photographed at the counter in Dalsinghsarai.",
-      "दलसिंहसराय की दुकान पर खींचे सोने के झुमके।",
+      "Gold earrings for the bridal set, from the counter in Dalsinghsarai.",
+      "दलसिंहसराय की दुकान के सोने के झुमके, दुल्हन के सेट के लिए।",
     ),
     image: "/images/products/catalog/earring/070.jpg",
     alt: c("Gold earrings from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स के सोने के झुमके"),
   },
   {
     id: "gold-bracelet-001",
-    name: c("Gold bracelet 1", "सोने की कंगन 1"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -1952,7 +1952,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-002",
-    name: c("Gold bracelet 2", "सोने की कंगन 2"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -1963,7 +1963,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-003",
-    name: c("Gold bracelet 3", "सोने की कंगन 3"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -1974,7 +1974,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-004",
-    name: c("Gold bracelet 4", "सोने की कंगन 4"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -1985,7 +1985,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-005",
-    name: c("Gold bracelet 5", "सोने की कंगन 5"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -1996,7 +1996,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-006",
-    name: c("Gold bracelet 6", "सोने की कंगन 6"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2007,7 +2007,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-007",
-    name: c("Gold bracelet 7", "सोने की कंगन 7"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2018,7 +2018,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-008",
-    name: c("Gold bracelet 8", "सोने की कंगन 8"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2029,7 +2029,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-009",
-    name: c("Gold bracelet 9", "सोने की कंगन 9"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2040,7 +2040,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-010",
-    name: c("Gold bracelet 10", "सोने की कंगन 10"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2051,7 +2051,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-011",
-    name: c("Gold bracelet 11", "सोने की कंगन 11"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2062,7 +2062,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-012",
-    name: c("Gold bracelet 12", "सोने की कंगन 12"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2073,7 +2073,7 @@ export const catalogBatch = [
   },
   {
     id: "gold-bracelet-013",
-    name: c("Gold bracelet 13", "सोने की कंगन 13"),
+    name: c("Gold bracelet", "सोने की कंगन"),
     category: "Bracelet" as ProductGroup,
     description: c(
       "Gold bracelet from R.P Jewellers & Sons.",
@@ -2084,381 +2084,381 @@ export const catalogBatch = [
   },
   {
     id: "gold-ring-001",
-    name: c("Gold ring 1", "सोने की अंगूठी 1"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/001.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-002",
-    name: c("Gold ring 2", "सोने की अंगूठी 2"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/002.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-003",
-    name: c("Gold ring 3", "सोने की अंगूठी 3"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/003.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-004",
-    name: c("Gold ring 4", "सोने की अंगूठी 4"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/004.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-005",
-    name: c("Gold ring 5", "सोने की अंगूठी 5"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/005.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-006",
-    name: c("Gold ring 6", "सोने की अंगूठी 6"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/006.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-007",
-    name: c("Gold ring 7", "सोने की अंगूठी 7"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/007.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-008",
-    name: c("Gold ring 8", "सोने की अंगूठी 8"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/008.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-009",
-    name: c("Gold ring 9", "सोने की अंगूठी 9"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/009.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-010",
-    name: c("Gold ring 10", "सोने की अंगूठी 10"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/010.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-011",
-    name: c("Gold ring 11", "सोने की अंगूठी 11"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/011.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-012",
-    name: c("Gold ring 12", "सोने की अंगूठी 12"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/012.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-013",
-    name: c("Gold ring 13", "सोने की अंगूठी 13"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/013.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-014",
-    name: c("Gold ring 14", "सोने की अंगूठी 14"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/014.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-015",
-    name: c("Gold ring 15", "सोने की अंगूठी 15"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/015.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-016",
-    name: c("Gold ring 16", "सोने की अंगूठी 16"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/016.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-017",
-    name: c("Gold ring 17", "सोने की अंगूठी 17"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/017.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-018",
-    name: c("Gold ring 18", "सोने की अंगूठी 18"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/018.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-019",
-    name: c("Gold ring 19", "सोने की अंगूठी 19"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/019.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-020",
-    name: c("Gold ring 20", "सोने की अंगूठी 20"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/020.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-021",
-    name: c("Gold ring 21", "सोने की अंगूठी 21"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/021.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-022",
-    name: c("Gold ring 22", "सोने की अंगूठी 22"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/022.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-023",
-    name: c("Gold ring 23", "सोने की अंगूठी 23"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/023.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-024",
-    name: c("Gold ring 24", "सोने की अंगूठी 24"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/024.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-025",
-    name: c("Gold ring 25", "सोने की अंगूठी 25"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/025.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-026",
-    name: c("Gold ring 26", "सोने की अंगूठी 26"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/026.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-027",
-    name: c("Gold ring 27", "सोने की अंगूठी 27"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/027.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-028",
-    name: c("Gold ring 28", "सोने की अंगूठी 28"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/028.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-029",
-    name: c("Gold ring 29", "सोने की अंगूठी 29"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/029.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-030",
-    name: c("Gold ring 30", "सोने की अंगूठी 30"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/030.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-031",
-    name: c("Gold ring 31", "सोने की अंगूठी 31"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/031.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-032",
-    name: c("Gold ring 32", "सोने की अंगूठी 32"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/032.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-033",
-    name: c("Gold ring 33", "सोने की अंगूठी 33"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/033.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "gold-ring-034",
-    name: c("Gold ring 34", "सोने की अंगूठी 34"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Gents ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/gold-ring/034.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "jhumka-001",
-    name: c("Jhumka 1", "झुमका 1"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2469,7 +2469,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-002",
-    name: c("Jhumka 2", "झुमका 2"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2480,7 +2480,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-003",
-    name: c("Jhumka 3", "झुमका 3"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2491,7 +2491,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-004",
-    name: c("Jhumka 4", "झुमका 4"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2502,7 +2502,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-005",
-    name: c("Jhumka 5", "झुमका 5"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2513,7 +2513,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-006",
-    name: c("Jhumka 6", "झुमका 6"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2524,7 +2524,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-007",
-    name: c("Jhumka 7", "झुमका 7"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2535,7 +2535,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-008",
-    name: c("Jhumka 8", "झुमका 8"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2546,7 +2546,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-009",
-    name: c("Jhumka 9", "झुमका 9"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2557,7 +2557,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-010",
-    name: c("Jhumka 10", "झुमका 10"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2568,7 +2568,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-011",
-    name: c("Jhumka 11", "झुमका 11"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2579,7 +2579,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-012",
-    name: c("Jhumka 12", "झुमका 12"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2590,7 +2590,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-013",
-    name: c("Jhumka 13", "झुमका 13"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2601,7 +2601,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-014",
-    name: c("Jhumka 14", "झुमका 14"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2612,7 +2612,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-015",
-    name: c("Jhumka 15", "झुमका 15"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2623,7 +2623,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-016",
-    name: c("Jhumka 16", "झुमका 16"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2634,7 +2634,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-017",
-    name: c("Jhumka 17", "झुमका 17"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2645,7 +2645,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-018",
-    name: c("Jhumka 18", "झुमका 18"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2656,7 +2656,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-019",
-    name: c("Jhumka 19", "झुमका 19"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2667,7 +2667,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-020",
-    name: c("Jhumka 20", "झुमका 20"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2678,7 +2678,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-021",
-    name: c("Jhumka 21", "झुमका 21"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2689,7 +2689,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-022",
-    name: c("Jhumka 22", "झुमका 22"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2700,7 +2700,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-023",
-    name: c("Jhumka 23", "झुमका 23"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2711,7 +2711,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-024",
-    name: c("Jhumka 24", "झुमका 24"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2722,7 +2722,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-025",
-    name: c("Jhumka 25", "झुमका 25"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2733,7 +2733,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-026",
-    name: c("Jhumka 26", "झुमका 26"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2744,7 +2744,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-027",
-    name: c("Jhumka 27", "झुमका 27"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2755,7 +2755,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-028",
-    name: c("Jhumka 28", "झुमका 28"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2766,7 +2766,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-029",
-    name: c("Jhumka 29", "झुमका 29"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2777,7 +2777,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-030",
-    name: c("Jhumka 30", "झुमका 30"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2788,7 +2788,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-031",
-    name: c("Jhumka 31", "झुमका 31"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2799,7 +2799,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-032",
-    name: c("Jhumka 32", "झुमका 32"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2810,7 +2810,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-033",
-    name: c("Jhumka 33", "झुमका 33"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2821,7 +2821,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-034",
-    name: c("Jhumka 34", "झुमका 34"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2832,7 +2832,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-035",
-    name: c("Jhumka 35", "झुमका 35"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2843,7 +2843,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-036",
-    name: c("Jhumka 36", "झुमका 36"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2854,7 +2854,7 @@ export const catalogBatch = [
   },
   {
     id: "jhumka-037",
-    name: c("Jhumka 37", "झुमका 37"),
+    name: c("Jhumka", "झुमका"),
     category: "Jhumka" as ProductGroup,
     description: c(
       "Gold jhumka from the wedding jewellery counter in Dalsinghsarai.",
@@ -2865,898 +2865,898 @@ export const catalogBatch = [
   },
   {
     id: "ladies-ring-001",
-    name: c("Gold ring 1", "सोने की अंगूठी 1"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/001.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-002",
-    name: c("Gold ring 2", "सोने की अंगूठी 2"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/002.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-003",
-    name: c("Gold ring 3", "सोने की अंगूठी 3"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/003.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-004",
-    name: c("Gold ring 4", "सोने की अंगूठी 4"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/004.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-005",
-    name: c("Gold ring 5", "सोने की अंगूठी 5"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/005.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-006",
-    name: c("Gold ring 6", "सोने की अंगूठी 6"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/006.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-007",
-    name: c("Gold ring 7", "सोने की अंगूठी 7"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/007.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-008",
-    name: c("Gold ring 8", "सोने की अंगूठी 8"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/008.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-009",
-    name: c("Gold ring 9", "सोने की अंगूठी 9"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/009.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-010",
-    name: c("Gold ring 10", "सोने की अंगूठी 10"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/010.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-011",
-    name: c("Gold ring 11", "सोने की अंगूठी 11"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/011.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-012",
-    name: c("Gold ring 12", "सोने की अंगूठी 12"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/012.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-013",
-    name: c("Gold ring 13", "सोने की अंगूठी 13"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/013.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-014",
-    name: c("Gold ring 14", "सोने की अंगूठी 14"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/014.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-015",
-    name: c("Gold ring 15", "सोने की अंगूठी 15"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/015.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-016",
-    name: c("Gold ring 16", "सोने की अंगूठी 16"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/016.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-017",
-    name: c("Gold ring 17", "सोने की अंगूठी 17"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/017.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-018",
-    name: c("Gold ring 18", "सोने की अंगूठी 18"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/018.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-019",
-    name: c("Gold ring 19", "सोने की अंगूठी 19"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/019.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-020",
-    name: c("Gold ring 20", "सोने की अंगूठी 20"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/020.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-021",
-    name: c("Gold ring 21", "सोने की अंगूठी 21"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/021.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-022",
-    name: c("Gold ring 22", "सोने की अंगूठी 22"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/022.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-023",
-    name: c("Gold ring 23", "सोने की अंगूठी 23"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/023.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-024",
-    name: c("Gold ring 24", "सोने की अंगूठी 24"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/024.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-025",
-    name: c("Gold ring 25", "सोने की अंगूठी 25"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/025.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-026",
-    name: c("Gold ring 26", "सोने की अंगूठी 26"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/026.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-027",
-    name: c("Gold ring 27", "सोने की अंगूठी 27"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/027.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-028",
-    name: c("Gold ring 28", "सोने की अंगूठी 28"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/028.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-029",
-    name: c("Gold ring 29", "सोने की अंगूठी 29"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/029.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-030",
-    name: c("Gold ring 30", "सोने की अंगूठी 30"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/030.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-031",
-    name: c("Gold ring 31", "सोने की अंगूठी 31"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/031.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-032",
-    name: c("Gold ring 32", "सोने की अंगूठी 32"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/032.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-033",
-    name: c("Gold ring 33", "सोने की अंगूठी 33"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/033.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-034",
-    name: c("Gold ring 34", "सोने की अंगूठी 34"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/034.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-035",
-    name: c("Gold ring 35", "सोने की अंगूठी 35"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/035.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-036",
-    name: c("Gold ring 36", "सोने की अंगूठी 36"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/036.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-037",
-    name: c("Gold ring 37", "सोने की अंगूठी 37"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/037.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-038",
-    name: c("Gold ring 38", "सोने की अंगूठी 38"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/038.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-039",
-    name: c("Gold ring 39", "सोने की अंगूठी 39"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/039.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-040",
-    name: c("Gold ring 40", "सोने की अंगूठी 40"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/040.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-041",
-    name: c("Gold ring 41", "सोने की अंगूठी 41"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/041.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-042",
-    name: c("Gold ring 42", "सोने की अंगूठी 42"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/042.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-043",
-    name: c("Gold ring 43", "सोने की अंगूठी 43"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/043.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-044",
-    name: c("Gold ring 44", "सोने की अंगूठी 44"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/044.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-045",
-    name: c("Gold ring 45", "सोने की अंगूठी 45"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/045.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-046",
-    name: c("Gold ring 46", "सोने की अंगूठी 46"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/046.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-047",
-    name: c("Gold ring 47", "सोने की अंगूठी 47"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/047.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-048",
-    name: c("Gold ring 48", "सोने की अंगूठी 48"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/048.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-049",
-    name: c("Gold ring 49", "सोने की अंगूठी 49"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/049.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-050",
-    name: c("Gold ring 50", "सोने की अंगूठी 50"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/050.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-051",
-    name: c("Gold ring 51", "सोने की अंगूठी 51"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/051.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-052",
-    name: c("Gold ring 52", "सोने की अंगूठी 52"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/052.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-053",
-    name: c("Gold ring 53", "सोने की अंगूठी 53"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/053.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-054",
-    name: c("Gold ring 54", "सोने की अंगूठी 54"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/054.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-055",
-    name: c("Gold ring 55", "सोने की अंगूठी 55"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/055.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-056",
-    name: c("Gold ring 56", "सोने की अंगूठी 56"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/056.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-057",
-    name: c("Gold ring 57", "सोने की अंगूठी 57"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/057.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-058",
-    name: c("Gold ring 58", "सोने की अंगूठी 58"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/058.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-059",
-    name: c("Gold ring 59", "सोने की अंगूठी 59"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/059.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-060",
-    name: c("Gold ring 60", "सोने की अंगूठी 60"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/060.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-061",
-    name: c("Gold ring 61", "सोने की अंगूठी 61"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/061.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-062",
-    name: c("Gold ring 62", "सोने की अंगूठी 62"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/062.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-063",
-    name: c("Gold ring 63", "सोने की अंगूठी 63"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/063.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-064",
-    name: c("Gold ring 64", "सोने की अंगूठी 64"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/064.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-065",
-    name: c("Gold ring 65", "सोने की अंगूठी 65"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/065.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-066",
-    name: c("Gold ring 66", "सोने की अंगूठी 66"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/066.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-067",
-    name: c("Gold ring 67", "सोने की अंगूठी 67"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/067.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-068",
-    name: c("Gold ring 68", "सोने की अंगूठी 68"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/068.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-069",
-    name: c("Gold ring 69", "सोने की अंगूठी 69"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/069.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "ladies-ring-070",
-    name: c("Gold ring 70", "सोने की अंगूठी 70"),
+    name: c("Gold ring", "सोने की अंगूठी"),
     category: "Ladies ring" as ProductGroup,
     description: c(
-      "Gold ring from the shop. Ask at the counter about the hallmark and the stone.",
-      "दुकान की सोने की अंगूठी। हॉलमार्क और पत्थर काउंटर पर पूछ लीजिए।",
+      "A gold ring in hallmarked gold, chosen with the bridal set.",
+      "हॉलमार्क सोने की अंगूठी, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/catalog/ladies-ring/070.jpg",
     alt: c("Gold ring from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स की सोने की अंगूठी"),
   },
   {
     id: "mangalsutra-set-001",
-    name: c("Mangalsutra set 1", "मंगलसूत्र सेट 1"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/001.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-002",
-    name: c("Mangalsutra set 2", "मंगलसूत्र सेट 2"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/002.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-003",
-    name: c("Mangalsutra set 3", "मंगलसूत्र सेट 3"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/003.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-004",
-    name: c("Mangalsutra set 4", "मंगलसूत्र सेट 4"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/004.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-005",
-    name: c("Mangalsutra set 5", "मंगलसूत्र सेट 5"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/005.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-006",
-    name: c("Mangalsutra set 6", "मंगलसूत्र सेट 6"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/006.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-007",
-    name: c("Mangalsutra set 7", "मंगलसूत्र सेट 7"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/007.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-008",
-    name: c("Mangalsutra set 8", "मंगलसूत्र सेट 8"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/008.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-009",
-    name: c("Mangalsutra set 9", "मंगलसूत्र सेट 9"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/009.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-010",
-    name: c("Mangalsutra set 10", "मंगलसूत्र सेट 10"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/010.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-set-011",
-    name: c("Mangalsutra set 11", "मंगलसूत्र सेट 11"),
+    name: c("Mangalsutra set", "मंगलसूत्र सेट"),
     category: "Mangalsutra set" as ProductGroup,
     description: c(
-      "Mangalsutra with earrings, photographed at R.P Jewellers & Sons.",
-      "झुमकों के साथ मंगलसूत्र। आर.पी. ज्वेलर्स एंड सन्स की तस्वीर।",
+      "Mangalsutra with matching earrings, from R.P Jewellers & Sons.",
+      "झुमकों के साथ मंगलसूत्र, आर.पी. ज्वेलर्स एंड सन्स से।",
     ),
     image: "/images/products/catalog/mangalsutra-set/011.jpg",
     alt: c("Mangalsutra set from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का मंगलसूत्र सेट"),
   },
   {
     id: "mangalsutra-001",
-    name: c("Mangalsutra 1", "मंगलसूत्र 1"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3767,7 +3767,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-002",
-    name: c("Mangalsutra 2", "मंगलसूत्र 2"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3778,7 +3778,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-003",
-    name: c("Mangalsutra 3", "मंगलसूत्र 3"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3789,7 +3789,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-004",
-    name: c("Mangalsutra 4", "मंगलसूत्र 4"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3800,7 +3800,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-005",
-    name: c("Mangalsutra 5", "मंगलसूत्र 5"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3811,7 +3811,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-006",
-    name: c("Mangalsutra 6", "मंगलसूत्र 6"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3822,7 +3822,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-007",
-    name: c("Mangalsutra 7", "मंगलसूत्र 7"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3833,7 +3833,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-008",
-    name: c("Mangalsutra 8", "मंगलसूत्र 8"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3844,7 +3844,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-009",
-    name: c("Mangalsutra 9", "मंगलसूत्र 9"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3855,7 +3855,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-010",
-    name: c("Mangalsutra 10", "मंगलसूत्र 10"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3866,7 +3866,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-011",
-    name: c("Mangalsutra 11", "मंगलसूत्र 11"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3877,7 +3877,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-012",
-    name: c("Mangalsutra 12", "मंगलसूत्र 12"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3888,7 +3888,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-013",
-    name: c("Mangalsutra 13", "मंगलसूत्र 13"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3899,7 +3899,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-014",
-    name: c("Mangalsutra 14", "मंगलसूत्र 14"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3910,7 +3910,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-015",
-    name: c("Mangalsutra 15", "मंगलसूत्र 15"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3921,7 +3921,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-016",
-    name: c("Mangalsutra 16", "मंगलसूत्र 16"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3932,7 +3932,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-017",
-    name: c("Mangalsutra 17", "मंगलसूत्र 17"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3943,7 +3943,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-018",
-    name: c("Mangalsutra 18", "मंगलसूत्र 18"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3954,7 +3954,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-019",
-    name: c("Mangalsutra 19", "मंगलसूत्र 19"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3965,7 +3965,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-020",
-    name: c("Mangalsutra 20", "मंगलसूत्र 20"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3976,7 +3976,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-021",
-    name: c("Mangalsutra 21", "मंगलसूत्र 21"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3987,7 +3987,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-022",
-    name: c("Mangalsutra 22", "मंगलसूत्र 22"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -3998,7 +3998,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-023",
-    name: c("Mangalsutra 23", "मंगलसूत्र 23"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4009,7 +4009,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-024",
-    name: c("Mangalsutra 24", "मंगलसूत्र 24"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4020,7 +4020,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-025",
-    name: c("Mangalsutra 25", "मंगलसूत्र 25"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4031,7 +4031,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-026",
-    name: c("Mangalsutra 26", "मंगलसूत्र 26"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4042,7 +4042,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-027",
-    name: c("Mangalsutra 27", "मंगलसूत्र 27"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4053,7 +4053,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-028",
-    name: c("Mangalsutra 28", "मंगलसूत्र 28"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4064,7 +4064,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-029",
-    name: c("Mangalsutra 29", "मंगलसूत्र 29"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4075,7 +4075,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-030",
-    name: c("Mangalsutra 30", "मंगलसूत्र 30"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4086,7 +4086,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-031",
-    name: c("Mangalsutra 31", "मंगलसूत्र 31"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4097,7 +4097,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-032",
-    name: c("Mangalsutra 32", "मंगलसूत्र 32"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4108,7 +4108,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-033",
-    name: c("Mangalsutra 33", "मंगलसूत्र 33"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4119,7 +4119,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-034",
-    name: c("Mangalsutra 34", "मंगलसूत्र 34"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4130,7 +4130,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-035",
-    name: c("Mangalsutra 35", "मंगलसूत्र 35"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4141,7 +4141,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-036",
-    name: c("Mangalsutra 36", "मंगलसूत्र 36"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4152,7 +4152,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-037",
-    name: c("Mangalsutra 37", "मंगलसूत्र 37"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4163,7 +4163,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-038",
-    name: c("Mangalsutra 38", "मंगलसूत्र 38"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4174,7 +4174,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-039",
-    name: c("Mangalsutra 39", "मंगलसूत्र 39"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4185,7 +4185,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-040",
-    name: c("Mangalsutra 40", "मंगलसूत्र 40"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4196,7 +4196,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-041",
-    name: c("Mangalsutra 41", "मंगलसूत्र 41"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4207,7 +4207,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-042",
-    name: c("Mangalsutra 42", "मंगलसूत्र 42"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4218,7 +4218,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-043",
-    name: c("Mangalsutra 43", "मंगलसूत्र 43"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4229,7 +4229,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-044",
-    name: c("Mangalsutra 44", "मंगलसूत्र 44"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4240,7 +4240,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-045",
-    name: c("Mangalsutra 45", "मंगलसूत्र 45"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4251,7 +4251,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-046",
-    name: c("Mangalsutra 46", "मंगलसूत्र 46"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4262,7 +4262,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-047",
-    name: c("Mangalsutra 47", "मंगलसूत्र 47"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4273,7 +4273,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-048",
-    name: c("Mangalsutra 48", "मंगलसूत्र 48"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4284,7 +4284,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-049",
-    name: c("Mangalsutra 49", "मंगलसूत्र 49"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4295,7 +4295,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-050",
-    name: c("Mangalsutra 50", "मंगलसूत्र 50"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4306,7 +4306,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-051",
-    name: c("Mangalsutra 51", "मंगलसूत्र 51"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4317,7 +4317,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-052",
-    name: c("Mangalsutra 52", "मंगलसूत्र 52"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4328,7 +4328,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-053",
-    name: c("Mangalsutra 53", "मंगलसूत्र 53"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4339,7 +4339,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-054",
-    name: c("Mangalsutra 54", "मंगलसूत्र 54"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4350,7 +4350,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-055",
-    name: c("Mangalsutra 55", "मंगलसूत्र 55"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4361,7 +4361,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-056",
-    name: c("Mangalsutra 56", "मंगलसूत्र 56"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4372,7 +4372,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-057",
-    name: c("Mangalsutra 57", "मंगलसूत्र 57"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4383,7 +4383,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-058",
-    name: c("Mangalsutra 58", "मंगलसूत्र 58"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4394,7 +4394,7 @@ export const catalogBatch = [
   },
   {
     id: "mangalsutra-059",
-    name: c("Mangalsutra 59", "मंगलसूत्र 59"),
+    name: c("Mangalsutra", "मंगलसूत्र"),
     category: "Mangalsutra" as ProductGroup,
     description: c(
       "Gold mangalsutra from the shop in Dalsinghsarai.",
@@ -4405,7 +4405,7 @@ export const catalogBatch = [
   },
   {
     id: "pola-earring-001",
-    name: c("Pola earring 1", "पोला झुमका 1"),
+    name: c("Pola earring", "पोला झुमका"),
     category: "Pola" as ProductGroup,
     description: c(
       "Pola-style gold earrings from R.P Jewellers & Sons.",
@@ -4416,7 +4416,7 @@ export const catalogBatch = [
   },
   {
     id: "pola-earring-002",
-    name: c("Pola earring 2", "पोला झुमका 2"),
+    name: c("Pola earring", "पोला झुमका"),
     category: "Pola" as ProductGroup,
     description: c(
       "Pola-style gold earrings from R.P Jewellers & Sons.",
@@ -4427,7 +4427,7 @@ export const catalogBatch = [
   },
   {
     id: "pola-earring-003",
-    name: c("Pola earring 3", "पोला झुमका 3"),
+    name: c("Pola earring", "पोला झुमका"),
     category: "Pola" as ProductGroup,
     description: c(
       "Pola-style gold earrings from R.P Jewellers & Sons.",
@@ -4438,7 +4438,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-001",
-    name: c("Stud earring 1", "छोटा झुमका 1"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4449,7 +4449,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-002",
-    name: c("Stud earring 2", "छोटा झुमका 2"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4460,7 +4460,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-003",
-    name: c("Stud earring 3", "छोटा झुमका 3"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4471,7 +4471,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-004",
-    name: c("Stud earring 4", "छोटा झुमका 4"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4482,7 +4482,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-005",
-    name: c("Stud earring 5", "छोटा झुमका 5"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4493,7 +4493,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-006",
-    name: c("Stud earring 6", "छोटा झुमका 6"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4504,7 +4504,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-007",
-    name: c("Stud earring 7", "छोटा झुमका 7"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4515,7 +4515,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-008",
-    name: c("Stud earring 8", "छोटा झुमका 8"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4526,7 +4526,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-009",
-    name: c("Stud earring 9", "छोटा झुमका 9"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4537,7 +4537,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-010",
-    name: c("Stud earring 10", "छोटा झुमका 10"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4548,7 +4548,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-011",
-    name: c("Stud earring 11", "छोटा झुमका 11"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4559,7 +4559,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-012",
-    name: c("Stud earring 12", "छोटा झुमका 12"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4570,7 +4570,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-013",
-    name: c("Stud earring 13", "छोटा झुमका 13"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4581,7 +4581,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-014",
-    name: c("Stud earring 14", "छोटा झुमका 14"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4592,7 +4592,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-015",
-    name: c("Stud earring 15", "छोटा झुमका 15"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4603,7 +4603,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-016",
-    name: c("Stud earring 16", "छोटा झुमका 16"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4614,7 +4614,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-017",
-    name: c("Stud earring 17", "छोटा झुमका 17"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4625,7 +4625,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-018",
-    name: c("Stud earring 18", "छोटा झुमका 18"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4636,7 +4636,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-019",
-    name: c("Stud earring 19", "छोटा झुमका 19"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4647,7 +4647,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-020",
-    name: c("Stud earring 20", "छोटा झुमका 20"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4658,7 +4658,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-021",
-    name: c("Stud earring 21", "छोटा झुमका 21"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4669,7 +4669,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-022",
-    name: c("Stud earring 22", "छोटा झुमका 22"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4680,7 +4680,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-023",
-    name: c("Stud earring 23", "छोटा झुमका 23"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4691,7 +4691,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-024",
-    name: c("Stud earring 24", "छोटा झुमका 24"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4702,7 +4702,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-025",
-    name: c("Stud earring 25", "छोटा झुमका 25"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4713,7 +4713,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-026",
-    name: c("Stud earring 26", "छोटा झुमका 26"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4724,7 +4724,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-027",
-    name: c("Stud earring 27", "छोटा झुमका 27"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4735,7 +4735,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-028",
-    name: c("Stud earring 28", "छोटा झुमका 28"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4746,7 +4746,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-029",
-    name: c("Stud earring 29", "छोटा झुमका 29"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4757,7 +4757,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-030",
-    name: c("Stud earring 30", "छोटा झुमका 30"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4768,7 +4768,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-031",
-    name: c("Stud earring 31", "छोटा झुमका 31"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4779,7 +4779,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-032",
-    name: c("Stud earring 32", "छोटा झुमका 32"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4790,7 +4790,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-033",
-    name: c("Stud earring 33", "छोटा झुमका 33"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4801,7 +4801,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-034",
-    name: c("Stud earring 34", "छोटा झुमका 34"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4812,7 +4812,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-035",
-    name: c("Stud earring 35", "छोटा झुमका 35"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4823,7 +4823,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-036",
-    name: c("Stud earring 36", "छोटा झुमका 36"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4834,7 +4834,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-037",
-    name: c("Stud earring 37", "छोटा झुमका 37"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4845,7 +4845,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-038",
-    name: c("Stud earring 38", "छोटा झुमका 38"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4856,7 +4856,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-039",
-    name: c("Stud earring 39", "छोटा झुमका 39"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4867,7 +4867,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-040",
-    name: c("Stud earring 40", "छोटा झुमका 40"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4878,7 +4878,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-041",
-    name: c("Stud earring 41", "छोटा झुमका 41"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4889,7 +4889,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-042",
-    name: c("Stud earring 42", "छोटा झुमका 42"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4900,7 +4900,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-043",
-    name: c("Stud earring 43", "छोटा झुमका 43"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4911,7 +4911,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-044",
-    name: c("Stud earring 44", "छोटा झुमका 44"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4922,7 +4922,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-045",
-    name: c("Stud earring 45", "छोटा झुमका 45"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4933,7 +4933,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-046",
-    name: c("Stud earring 46", "छोटा झुमका 46"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4944,7 +4944,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-047",
-    name: c("Stud earring 47", "छोटा झुमका 47"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4955,7 +4955,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-048",
-    name: c("Stud earring 48", "छोटा झुमका 48"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4966,7 +4966,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-049",
-    name: c("Stud earring 49", "छोटा झुमका 49"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4977,7 +4977,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-050",
-    name: c("Stud earring 50", "छोटा झुमका 50"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4988,7 +4988,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-051",
-    name: c("Stud earring 51", "छोटा झुमका 51"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -4999,7 +4999,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-052",
-    name: c("Stud earring 52", "छोटा झुमका 52"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5010,7 +5010,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-053",
-    name: c("Stud earring 53", "छोटा झुमका 53"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5021,7 +5021,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-054",
-    name: c("Stud earring 54", "छोटा झुमका 54"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5032,7 +5032,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-055",
-    name: c("Stud earring 55", "छोटा झुमका 55"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5043,7 +5043,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-056",
-    name: c("Stud earring 56", "छोटा झुमका 56"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5054,7 +5054,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-057",
-    name: c("Stud earring 57", "छोटा झुमका 57"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5065,7 +5065,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-058",
-    name: c("Stud earring 58", "छोटा झुमका 58"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5076,7 +5076,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-059",
-    name: c("Stud earring 59", "छोटा झुमका 59"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5087,7 +5087,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-060",
-    name: c("Stud earring 60", "छोटा झुमका 60"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5098,7 +5098,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-061",
-    name: c("Stud earring 61", "छोटा झुमका 61"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5109,7 +5109,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-062",
-    name: c("Stud earring 62", "छोटा झुमका 62"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5120,7 +5120,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-063",
-    name: c("Stud earring 63", "छोटा झुमका 63"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5131,7 +5131,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-064",
-    name: c("Stud earring 64", "छोटा झुमका 64"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5142,7 +5142,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-065",
-    name: c("Stud earring 65", "छोटा झुमका 65"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5153,7 +5153,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-066",
-    name: c("Stud earring 66", "छोटा झुमका 66"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5164,7 +5164,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-067",
-    name: c("Stud earring 67", "छोटा झुमका 67"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5175,7 +5175,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-068",
-    name: c("Stud earring 68", "छोटा झुमका 68"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5186,7 +5186,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-069",
-    name: c("Stud earring 69", "छोटा झुमका 69"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5197,7 +5197,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-070",
-    name: c("Stud earring 70", "छोटा झुमका 70"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5208,7 +5208,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-071",
-    name: c("Stud earring 71", "छोटा झुमका 71"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5219,7 +5219,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-072",
-    name: c("Stud earring 72", "छोटा झुमका 72"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5230,7 +5230,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-073",
-    name: c("Stud earring 73", "छोटा झुमका 73"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5241,7 +5241,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-074",
-    name: c("Stud earring 74", "छोटा झुमका 74"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5252,7 +5252,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-075",
-    name: c("Stud earring 75", "छोटा झुमका 75"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5263,7 +5263,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-076",
-    name: c("Stud earring 76", "छोटा झुमका 76"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5274,7 +5274,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-077",
-    name: c("Stud earring 77", "छोटा झुमका 77"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5285,7 +5285,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-078",
-    name: c("Stud earring 78", "छोटा झुमका 78"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5296,7 +5296,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-079",
-    name: c("Stud earring 79", "छोटा झुमका 79"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5307,7 +5307,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-080",
-    name: c("Stud earring 80", "छोटा झुमका 80"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5318,7 +5318,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-081",
-    name: c("Stud earring 81", "छोटा झुमका 81"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5329,7 +5329,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-082",
-    name: c("Stud earring 82", "छोटा झुमका 82"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5340,7 +5340,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-083",
-    name: c("Stud earring 83", "छोटा झुमका 83"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5351,7 +5351,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-084",
-    name: c("Stud earring 84", "छोटा झुमका 84"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5362,7 +5362,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-085",
-    name: c("Stud earring 85", "छोटा झुमका 85"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5373,7 +5373,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-086",
-    name: c("Stud earring 86", "छोटा झुमका 86"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5384,7 +5384,7 @@ export const catalogBatch = [
   },
   {
     id: "stud-earring-087",
-    name: c("Stud earring 87", "छोटा झुमका 87"),
+    name: c("Stud earring", "छोटा झुमका"),
     category: "Small earring" as ProductGroup,
     description: c(
       "Small gold earrings from the shop counter in Dalsinghsarai.",
@@ -5395,330 +5395,330 @@ export const catalogBatch = [
   },
   {
     id: "maang-tikka-001",
-    name: c("Maang tikka 1", "माथे का टीका 1"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/001.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-002",
-    name: c("Maang tikka 2", "माथे का टीका 2"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/002.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-003",
-    name: c("Maang tikka 3", "माथे का टीका 3"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/003.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-004",
-    name: c("Maang tikka 4", "माथे का टीका 4"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/004.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-005",
-    name: c("Maang tikka 5", "माथे का टीका 5"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/005.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-006",
-    name: c("Maang tikka 6", "माथे का टीका 6"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/006.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-007",
-    name: c("Maang tikka 7", "माथे का टीका 7"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/007.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-008",
-    name: c("Maang tikka 8", "माथे का टीका 8"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/008.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-009",
-    name: c("Maang tikka 9", "माथे का टीका 9"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/009.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-010",
-    name: c("Maang tikka 10", "माथे का टीका 10"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/010.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-011",
-    name: c("Maang tikka 11", "माथे का टीका 11"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/011.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-012",
-    name: c("Maang tikka 12", "माथे का टीका 12"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/012.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-013",
-    name: c("Maang tikka 13", "माथे का टीका 13"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/013.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-014",
-    name: c("Maang tikka 14", "माथे का टीका 14"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/014.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-015",
-    name: c("Maang tikka 15", "माथे का टीका 15"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/015.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-016",
-    name: c("Maang tikka 16", "माथे का टीका 16"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/016.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-017",
-    name: c("Maang tikka 17", "माथे का टीका 17"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/017.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-018",
-    name: c("Maang tikka 18", "माथे का टीका 18"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/018.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-019",
-    name: c("Maang tikka 19", "माथे का टीका 19"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/019.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-020",
-    name: c("Maang tikka 20", "माथे का टीका 20"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/020.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-021",
-    name: c("Maang tikka 21", "माथे का टीका 21"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/021.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-022",
-    name: c("Maang tikka 22", "माथे का टीका 22"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/022.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-023",
-    name: c("Maang tikka 23", "माथे का टीका 23"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/023.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-024",
-    name: c("Maang tikka 24", "माथे का टीका 24"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/024.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-025",
-    name: c("Maang tikka 25", "माथे का टीका 25"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/025.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-026",
-    name: c("Maang tikka 26", "माथे का टीका 26"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/026.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-027",
-    name: c("Maang tikka 27", "माथे का टीका 27"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/027.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-028",
-    name: c("Maang tikka 28", "माथे का टीका 28"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/028.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-029",
-    name: c("Maang tikka 29", "माथे का टीका 29"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/029.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),
   },
   {
     id: "maang-tikka-030",
-    name: c("Maang tikka 30", "माथे का टीका 30"),
+    name: c("Maang tikka", "माथे का टीका"),
     category: "Maang tikka" as ProductGroup,
     description: c(
-      "Gold maang tikka for bridal wear, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। दुकान की तस्वीर।",
+      "Gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/030.jpg",
     alt: c("Gold maang tikka from R.P Jewellers & Sons", "आर.पी. ज्वेलर्स एंड सन्स का सोने का माथे का टीका"),

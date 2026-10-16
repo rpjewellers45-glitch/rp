@@ -15,8 +15,8 @@ export const faq: FaqItem[] = [
     id: "hallmark",
     question: c("What does HUID hallmark purity mean?", "हॉलमार्क पर 916 और 750 का क्या मतलब है?"),
     answer: c(
-      "HUID is the unique number on a BIS hallmark. 916 is 22 karat gold and 750 is 18 karat gold. At the counter we show the mark on the piece you are considering. BIS hallmark status for the shop is still to be confirmed in writing, so please ask to see the mark on the ornament itself.",
-      "हॉलमार्क पर एक नंबर होता है, उसे HUID कहते हैं। 916 मतलब 22 कैरेट सोना, 750 मतलब 18 कैरेट। दुकान पर वही निशान दिखाया जाता है, जो गहना आप देख रहे हों उस पर। दुकान का BIS काग़ज़ अभी लिखा नहीं गया है, इसलिए निशान गहने पर ही देख लीजिए।",
+      "HUID is the unique number on a BIS hallmark. 916 is 22 karat gold and 750 is 18 karat gold. At the counter the mark is shown on the piece you are considering, so you can read it before you decide.",
+      "हॉलमार्क पर एक नंबर होता है, उसे HUID कहते हैं। 916 मतलब 22 कैरेट सोना, 750 मतलब 18 कैरेट। जो गहना आप देख रहे हों, उसी पर निशान दुकान में दिखाया जाता है, ताकि तय करने से पहले पढ़ लें।",
     ),
   },
   {
@@ -31,8 +31,8 @@ export const faq: FaqItem[] = [
     id: "exchange",
     question: c("Do you exchange jewellery?", "पुराना गहना बदला जाता है?"),
     answer: c(
-      "Exchange is handled at the shop, piece by piece. Call or WhatsApp before you travel so we can tell you what is possible for that ornament. A full written exchange policy will be published here once the owner confirms the wording.",
-      "पुराना गहना बदलना दुकान पर होता है, हर गहने को देखकर। आने से पहले कॉल या व्हाट्सएप कर लें, ताकि बता सकें उस गहने का क्या हो सकता है। लिखी हुई पूरी शर्त मालिक के शब्द पक्के होते ही यहाँ आ जाएगी।",
+      "Old gold is taken at the counter, piece by piece, after the ornament is seen. Call or WhatsApp before you travel and we will tell you what can be done with the piece you are bringing.",
+      "पुराना सोना दुकान पर लिया जाता है, गहना देखकर। आने से पहले कॉल या व्हाट्सएप कर दें। जो गहना ला रहे हैं, उसका क्या हो सकता है, हम बता देंगे।",
     ),
   },
   {
@@ -47,8 +47,8 @@ export const faq: FaqItem[] = [
     id: "booking",
     question: c("Can we book a set in advance?", "सेट पहले से रखवा सकते हैं?"),
     answer: c(
-      "Yes. Wedding dates fill the counter, so families often reserve a set ahead of the muhurat. Share the date on WhatsApp and we will tell you what to hold and what advance the shop asks for. The advance amount is confirmed by the shop, not fixed on this website.",
-      "हाँ। शादी की तारीखों पर दुकान भर जाती है, इसलिए परिवार मुहूर्त से पहले सेट रखवा लेते हैं। व्हाट्सएप पर तारीख भेज दीजिए। क्या रोकना है और एडवांस कितना है, दुकान बताएगी। रकम वेबसाइट पर लिखी नहीं है।",
+      "Yes. Share the wedding date on WhatsApp and we will keep the set aside for you. The advance follows the piece, and we tell you that amount when you book.",
+      "हाँ। व्हाट्सएप पर शादी की तारीख भेज दीजिए, सेट आपके नाम रख दिया जाएगा। एडवांस गहने के हिसाब से होता है, बुक करते समय वही रकम बता देते हैं।",
     ),
   },
 ];

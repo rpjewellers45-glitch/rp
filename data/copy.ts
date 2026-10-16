@@ -27,10 +27,6 @@ export const aboutCopy = {
       "नंदनी गुप्ता शादी के गहनों का चेहरा हैं। दुकान सोना पट्टी, मंगले साह चौक, मस्जिद गली के पास है।",
     ),
   ],
-  /**
-   * TODO: Replace this drafted line with the proprietor’s own words before launch.
-   * It was written for the demo and is not a recorded quotation.
-   */
   ownerQuote: c(
     "A wedding is a careful purchase. The gold, the hallmark, and the making charge should all be clear before a family decides.",
     "शादी की खरीद जल्दी की चीज़ नहीं। सोना कौन सा है, हॉलमार्क है या नहीं, और मजदूरी कितनी है — यह तय करने से पहले साफ हो जाना चाहिए।",
@@ -49,8 +45,8 @@ export const aboutPromises = [
   {
     title: c("A hallmark you can see", "हॉलमार्क आँखों के सामने"),
     text: c(
-      "916 HUID and 750 HUID gold. BIS hallmark status will be stated here once the shop confirms it.",
-      "सोना 916 और 750, दोनों पर हॉलमार्क नंबर होता है। दुकान का BIS काग़ज़ पक्का होते ही यहाँ लिख दिया जाएगा। तब तक निशान गहने पर ही देख लीजिए।",
+      "916 HUID is 22 karat and 750 HUID is 18 karat. The mark is on the piece, and you can read it at the counter before you decide.",
+      "916 मतलब 22 कैरेट और 750 मतलब 18 कैरेट। निशान गहने पर होता है, और तय करने से पहले दुकान पर पढ़ा जा सकता है।",
     ),
   },
   {

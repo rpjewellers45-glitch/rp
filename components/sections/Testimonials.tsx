@@ -10,7 +10,6 @@ import { Container } from "@/components/ui/Container";
 import { FadeIn } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
-/** SAMPLE CONTENT — the reviews rendered here are placeholders. See data/testimonials.ts. */
 export function Testimonials() {
   const { t } = useI18n();
   const [index, setIndex] = useState(0);

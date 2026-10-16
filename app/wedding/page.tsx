@@ -8,7 +8,7 @@ import { LocaleText } from "@/components/i18n/LocaleText";
 import { shop } from "@/data/shop";
 
 const description =
-  "Chokers, long haars and gold bangles photographed for R.P Jewellers & Sons, a wedding jewellery shop in Dalsinghsarai, Bihar.";
+  "Chokers, long haars and gold bangles from R.P Jewellers & Sons, a wedding jewellery shop in Dalsinghsarai, Bihar.";
 
 export const metadata: Metadata = {
   title: "Wedding Catalogue",

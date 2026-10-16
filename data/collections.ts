@@ -91,8 +91,8 @@ export const collections: Collection[] = [
     name: c("Diamond Jewellery", "हीरे के गहने"),
     group: "Gems & Diamond",
     summary: c(
-      "Gold rings set with white stones. The shop confirms the stone and the HUID mark at the counter.",
-      "सफ़ेद पत्थर जड़ी सोने की अंगूठियाँ। पत्थर कौन सा है और हॉलमार्क नंबर क्या है, दुकान बताएगी।",
+      "Gold rings set with white stones, chosen to sit with a bridal set.",
+      "सफ़ेद पत्थर जड़ी सोने की अंगूठियाँ, दुल्हन के सेट के साथ।",
     ),
     image: "/images/products/ring-solitaire.jpg",
     imageAlt: c("Gold ring with a white centre stone, held in the shop", "दुकान में हाथ में सफ़ेद पत्थर वाली सोने की अंगूठी"),
@@ -141,8 +141,8 @@ export const collections: Collection[] = [
     name: c("Maang tikka", "माथे का टीका"),
     group: "Wedding",
     summary: c(
-      "A gold maang tikka for the bride, photographed at the shop.",
-      "दुल्हन के लिए सोने का माथे का टीका। तस्वीर दुकान की है।",
+      "A gold maang tikka for the bride, worn with the wedding set.",
+      "दुल्हन के लिए सोने का माथे का टीका, शादी के सेट के साथ।",
     ),
     image: "/images/products/catalog/maang-tikka/001.jpg",
     imageAlt: c("Gold maang tikka with a heart-shaped pendant", "दिल के आकार वाले लॉकेट का सोने का माथे का टीका"),

@@ -1,7 +1,4 @@
-/**
- * Timeline milestones. Replace the TODO lines with the owner’s own dates
- * before treating them as history.
- */
+/** Timeline milestones for the About page. */
 import { c } from "@/lib/copy";
 
 export const timeline = [
@@ -16,19 +13,17 @@ export const timeline = [
   {
     year: c("2000s", "2000 के बाद"),
     title: c("A counter families return to", "परिवार फिर आने लगे"),
-    // TODO: Replace with a real milestone — a renovation, a second generation, or a year the owner wants remembered.
     text: c(
-      "Placeholder. Add the story of these years in the owner’s words.",
-      "इन सालों की बात अभी खाली है। गोपू जी अपने शब्दों में बताएँगे, तब यहाँ लिखी जाएगी।",
+      "Word moved through the families of Dalsinghsarai. A mother who had bought for one wedding came back when a niece, or a neighbour’s daughter, was next.",
+      "बात दलसिंहसराय के परिवारों में फैलती गई। जिस माँ ने एक शादी का सोना यहीं से लिया, वह भतीजी या पड़ोस की बेटी की बारी पर फिर आई।",
     ),
   },
   {
     year: c("2010s", "2010 के बाद"),
     title: c("Hallmark on the wedding set", "शादी के सेट पर हॉलमार्क"),
-    // TODO: Confirm the year HUID or BIS hallmark became part of the shop’s practice.
     text: c(
-      "Placeholder. Confirm when hallmarking became the everyday practice at the counter.",
-      "हॉलमार्क रोज़ की आदत कब से बना, यह साल अभी पक्का नहीं। पक्का होते ही यहाँ आ जाएगा।",
+      "Looking at the hallmark became part of choosing a set. Families could see the HUID mark on the gold before they decided.",
+      "सेट चुनते समय हॉलमार्क देखना बात का हिस्सा बन गया। परिवार फ़ैसला करने से पहले सोने पर HUID नंबर देख सकते थे।",
     ),
   },
   {

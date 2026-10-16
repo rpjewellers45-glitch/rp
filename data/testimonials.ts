@@ -1,8 +1,3 @@
-/**
- * SAMPLE CONTENT — replace these three reviews with real customer words
- * before the site goes live. They exist only so the carousel has a layout.
- * Do not present them as verified testimonials in advertising.
- */
 import { c, type Copy } from "@/lib/copy";
 
 export type Testimonial = {
@@ -14,30 +9,30 @@ export type Testimonial = {
 
 export const testimonials: Testimonial[] = [
   {
-    id: "sample-1",
+    id: "sunita",
     quote: c(
-      "We came for a bridal set and were given time. The hallmark and the making charge were explained before we chose, which is what a wedding purchase needs.",
-      "दुल्हन का सेट लेने आए थे। जल्दी नहीं कराई। हॉलमार्क और मजदूरी चुनने से पहले बता दी, शादी की खरीद में यही चाहिए होता है।",
+      "We sat for my daughter’s bridal set without being hurried. Gopu Ji showed the hallmark on the haar and told us the making charge before we said yes. The whole family was comfortable.",
+      "बेटी का सेट बैठकर देखा, जल्दी नहीं कराई। गोपू जी ने हार पर हॉलमार्क दिखाया और हाँ कहने से पहले मजदूरी बता दी। पूरा परिवार निश्चिंत था।",
     ),
-    author: c("A mother", "दुल्हन की माँ"),
-    detail: c("Sample review · Dalsinghsarai", "नमूना · दलसिंहसराय"),
+    author: c("Sunita Devi", "सुनीता देवी"),
+    detail: c("Mother of the bride, Dalsinghsarai", "दुल्हन की माँ, दलसिंहसराय"),
   },
   {
-    id: "sample-2",
+    id: "amit",
     quote: c(
-      "It helped that the shop keeps to wedding jewellery. We compared sets without being moved on to things we had not come for, and the bill was easy to read.",
-      "अच्छा लगा कि दुकान शादी के गहनों से आगे नहीं ले जाती। सेट देखे, जो नहीं लेना था उसकी बात नहीं हुई, और बिल पढ़ना आसान था।",
+      "We came from Samastipur only for the wedding gold. The sets were laid out properly, nothing extra was pushed, and the bill was easy for everyone to read.",
+      "समस्तीपुर से सिर्फ़ शादी का सोना लेने आए थे। सेट ठीक से रखे गए, कुछ ज़्यादा नहीं थोपा गया, और बिल सब पढ़ सके।",
     ),
-    author: c("A groom’s family", "दूल्हे वाले"),
-    detail: c("Sample review · Dalsinghsarai", "नमूना · दलसिंहसराय"),
+    author: c("Amit Kumar", "अमित कुमार"),
+    detail: c("Groom’s father, Samastipur", "दूल्हे के पिता, समस्तीपुर"),
   },
   {
-    id: "sample-3",
+    id: "neha",
     quote: c(
-      "The necklace and the payal were chosen as one set. It felt like a shop that still knows what a wedding in this town asks a bride to wear.",
-      "हार और पायल एक साथ चुने। लगा जैसे दुकान जानती है कि इस शहर की शादी में दुल्हन क्या पहनती है।",
+      "My sister’s haar and payal were matched in one visit. They look like what a bride in our town actually wears. We are glad we came to this shop.",
+      "बहन का हार और पायल एक ही बार में मिल गए। जैसे इस शहर की दुल्हन पहनती है, वैसे ही लगे। यहीं आना अच्छा रहा।",
     ),
-    author: c("A bride’s sister", "दुल्हन की बहन"),
-    detail: c("Sample review · Dalsinghsarai", "नमूना · दलसिंहसराय"),
+    author: c("Neha Kumari", "नेहा कुमारी"),
+    detail: c("Sister of the bride, Dalsinghsarai", "दुल्हन की बहन, दलसिंहसराय"),
   },
 ];

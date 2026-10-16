@@ -9,7 +9,7 @@ import { useI18n } from "@/components/i18n/LanguageProvider";
 const items: Array<{ icon: LucideIcon; label: MessageKey; note?: MessageKey }> = [
   { icon: BadgeCheck, label: "trust.916" },
   { icon: BadgeCheck, label: "trust.750" },
-  { icon: ShieldCheck, label: "trust.bis", note: "trust.confirm" },
+  { icon: ShieldCheck, label: "trust.bis" },
   { icon: Percent, label: "trust.making" },
   { icon: CalendarDays, label: "trust.since" },
 ];

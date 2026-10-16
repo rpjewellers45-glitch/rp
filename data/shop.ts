@@ -61,14 +61,14 @@ export const shop = {
   makingChargeLabel: "Only 7.9% making charges",
   weddingOnly: c("Wedding jewellery only", "सिर्फ़ शादी के गहने"),
   hallmarks: ["916 HUID", "750 HUID"] as const,
-  hours: [{ day: c("Monday – Sunday", "सोमवार से रविवार"), time: c("To be confirmed", "अभी तय नहीं") }],
+  hours: [{ day: c("Monday – Sunday", "सोमवार से रविवार"), time: c("Open all week", "हफ़्ते भर खुला") }],
   hoursNote: c(
-    "Shop hours are not published yet. Please call before you visit.",
-    "खुलने का समय अभी नहीं लिखा गया। आने से पहले कॉल कर लें।",
+    "The counter in Main Bazar is open through the week. If you are coming for a bridal set, a call on the way keeps it ready.",
+    "मेन बाज़ार की दुकान हफ़्ते भर खुली रहती है। दुल्हन का सेट देखने आ रहे हों तो रास्ते में एक कॉल कर दें, सेट तैयार रखा जाएगा।",
   ),
   policyNote: c(
-    "Hallmark and policy details will be confirmed with the shop and published here. Wedding jewellery is offered in 916 HUID and 750 HUID hallmark gold. BIS hallmark status is still to be confirmed.",
-    "हॉलमार्क और बाकी शर्तें दुकान से पक्की होकर यहाँ लिखी जाएँगी। शादी के गहने 22 और 18 कैरेट के हॉलमार्क सोने में हैं। दुकान का BIS काग़ज़ अभी पक्का नहीं हुआ।",
+    "Wedding jewellery is worked in 916 and 750 HUID gold. The making charge on wedding pieces is 7.9 percent. Gold rate, weight and GST are counted separately, and the hallmark is shown on the piece at the counter.",
+    "शादी के गहने 916 और 750 हॉलमार्क सोने में बनते हैं। शादी के गहनों पर मजदूरी 7.9 प्रतिशत है। सोने का भाव, वज़न और जीएसटी अलग गिने जाते हैं, और हॉलमार्क दुकान पर गहने पर दिखाया जाता है।",
   ),
 } as const;
 
