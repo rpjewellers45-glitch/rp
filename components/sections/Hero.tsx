@@ -43,7 +43,7 @@ export function Hero() {
             >
               <div className="absolute inset-0 md:hidden">
                 <SafeImage
-                  src="/images/hero-mobile-shop.jpg"
+                  src="/images/hero-mobile-front.jpg"
                   alt={t("hero.photo")}
                   sizes="100vw"
                   priority
