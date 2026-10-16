@@ -16,7 +16,7 @@ const items: Array<{ icon: LucideIcon; label: MessageKey; note?: MessageKey }> =
 
 function Row({ hidden = false }: { hidden?: boolean }) {
   return (
-    <ul className="flex items-center" {...(hidden ? { "aria-hidden": true } : {})}>
+    <ul className="flex shrink-0 items-center" {...(hidden ? { "aria-hidden": true } : {})}>
       {items.map((item) => (
         <li key={`${item.label}-${hidden ? "copy" : "main"}`} className="flex items-center gap-3 px-8 py-4">
           <item.icon className="h-4 w-4 text-gold-600" strokeWidth={1.25} aria-hidden="true" />
@@ -39,7 +39,7 @@ export function TrustStrip() {
   const { t } = useI18n();
   return (
     <section className="marquee-wrap overflow-hidden border-y border-gold-500/40 bg-cream" aria-label={t("trust.label")}>
-      <div className="marquee-track flex w-max motion-safe:animate-marquee">
+      <div className="marquee-track flex w-max animate-marquee">
         <Row />
         <div className="motion-reduce:hidden">
           <Row hidden />
